@@ -1,0 +1,2402 @@
+[
+  {
+    "id": 1,
+    "reference": "Psalm 23:1",
+    "text": "The Lord is my shepherd; I shall not want.",
+    "book": "Psalm",
+    "chapter": 23,
+    "verse": 1
+  },
+  {
+    "id": 2,
+    "reference": "John 1:1",
+    "text": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+    "book": "John",
+    "chapter": 1,
+    "verse": 1
+  },
+  {
+    "id": 3,
+    "reference": "Philippians 4:6",
+    "text": "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God.",
+    "book": "Philippians",
+    "chapter": 4,
+    "verse": 6
+  },
+  {
+    "id": 4,
+    "reference": "Romans 8:28",
+    "text": "And we know that in all things God works for the good of those who love him, who have been called according to his purpose.",
+    "book": "Romans",
+    "chapter": 8,
+    "verse": 28
+  },
+  {
+    "id": 5,
+    "reference": "Proverbs 3:5",
+    "text": "Trust in the Lord with all your heart and lean not on your own understanding.",
+    "book": "Proverbs",
+    "chapter": 3,
+    "verse": 5
+  },
+  {
+    "id": 6,
+    "reference": "Matthew 5:14",
+    "text": "You are the light of the world. A town built on a hill cannot be hidden.",
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": 14
+  },
+  {
+    "id": 7,
+    "reference": "Isaiah 41:10",
+    "text": "Fear not, for I am with you; be not dismayed, for I am your God. I will strengthen you, I will help you, I will uphold you with my righteous right hand.",
+    "book": "Isaiah",
+    "chapter": 41,
+    "verse": 10
+  },
+  {
+    "id": 8,
+    "reference": "Jeremiah 29:11",
+    "text": "For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future.",
+    "book": "Jeremiah",
+    "chapter": 29,
+    "verse": 11
+  },
+  {
+    "id": 9,
+    "reference": "Joshua 1:9",
+    "text": "Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.",
+    "book": "Joshua",
+    "chapter": 1,
+    "verse": 9
+  },
+  {
+    "id": 10,
+    "reference": "1 Corinthians 13:4",
+    "text": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud.",
+    "book": "1 Corinthians",
+    "chapter": 13,
+    "verse": 4
+  },
+  {
+    "id": 11,
+    "reference": "Ephesians 2:8",
+    "text": "For it is by grace you have been saved, through faith\u2014and this is not from yourselves, it is the gift of God.",
+    "book": "Ephesians",
+    "chapter": 2,
+    "verse": 8
+  },
+  {
+    "id": 12,
+    "reference": "Galatians 5:22",
+    "text": "But the fruit of the Spirit is love, joy, peace, forbearance, kindness, goodness, faithfulness.",
+    "book": "Galatians",
+    "chapter": 5,
+    "verse": 22
+  },
+  {
+    "id": 13,
+    "reference": "Hebrews 11:1",
+    "text": "Now faith is confidence in what we hope for and assurance about what we do not see.",
+    "book": "Hebrews",
+    "chapter": 11,
+    "verse": 1
+  },
+  {
+    "id": 14,
+    "reference": "James 1:2",
+    "text": "Consider it pure joy, my brothers and sisters, whenever you face trials of many kinds.",
+    "book": "James",
+    "chapter": 1,
+    "verse": 2
+  },
+  {
+    "id": 15,
+    "reference": "1 Peter 5:7",
+    "text": "Cast all your anxiety on him because he cares for you.",
+    "book": "1 Peter",
+    "chapter": 5,
+    "verse": 7
+  },
+  {
+    "id": 16,
+    "reference": "Psalm 46:1",
+    "text": "God is our refuge and strength, an ever-present help in trouble.",
+    "book": "Psalm",
+    "chapter": 46,
+    "verse": 1
+  },
+  {
+    "id": 17,
+    "reference": "Proverbs 16:3",
+    "text": "Commit to the Lord whatever you do, and he will establish your plans.",
+    "book": "Proverbs",
+    "chapter": 16,
+    "verse": 3
+  },
+  {
+    "id": 18,
+    "reference": "Matthew 6:26",
+    "text": "Look at the birds of the air; they do not sow or reap or store away in barns, and yet your heavenly Father feeds them. Are you not much more valuable than they?",
+    "book": "Matthew",
+    "chapter": 6,
+    "verse": 26
+  },
+  {
+    "id": 19,
+    "reference": "Romans 12:2",
+    "text": "Do not conform to the pattern of this world, but be transformed by the renewing of your mind.",
+    "book": "Romans",
+    "chapter": 12,
+    "verse": 2
+  },
+  {
+    "id": 20,
+    "reference": "Colossians 3:23",
+    "text": "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters.",
+    "book": "Colossians",
+    "chapter": 3,
+    "verse": 23
+  },
+  {
+    "id": 21,
+    "reference": "Psalm 23:1",
+    "text": "The Lord is my shepherd; I shall not want.",
+    "book": "Psalm",
+    "chapter": 23,
+    "verse": 1
+  },
+  {
+    "id": 22,
+    "reference": "John 1:1",
+    "text": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+    "book": "John",
+    "chapter": 1,
+    "verse": 1
+  },
+  {
+    "id": 23,
+    "reference": "Philippians 4:6",
+    "text": "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God.",
+    "book": "Philippians",
+    "chapter": 4,
+    "verse": 6
+  },
+  {
+    "id": 24,
+    "reference": "Romans 8:28",
+    "text": "And we know that in all things God works for the good of those who love him, who have been called according to his purpose.",
+    "book": "Romans",
+    "chapter": 8,
+    "verse": 28
+  },
+  {
+    "id": 25,
+    "reference": "Proverbs 3:5",
+    "text": "Trust in the Lord with all your heart and lean not on your own understanding.",
+    "book": "Proverbs",
+    "chapter": 3,
+    "verse": 5
+  },
+  {
+    "id": 26,
+    "reference": "Matthew 5:14",
+    "text": "You are the light of the world. A town built on a hill cannot be hidden.",
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": 14
+  },
+  {
+    "id": 27,
+    "reference": "Isaiah 41:10",
+    "text": "Fear not, for I am with you; be not dismayed, for I am your God. I will strengthen you, I will help you, I will uphold you with my righteous right hand.",
+    "book": "Isaiah",
+    "chapter": 41,
+    "verse": 10
+  },
+  {
+    "id": 28,
+    "reference": "Jeremiah 29:11",
+    "text": "For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future.",
+    "book": "Jeremiah",
+    "chapter": 29,
+    "verse": 11
+  },
+  {
+    "id": 29,
+    "reference": "Joshua 1:9",
+    "text": "Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.",
+    "book": "Joshua",
+    "chapter": 1,
+    "verse": 9
+  },
+  {
+    "id": 30,
+    "reference": "1 Corinthians 13:4",
+    "text": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud.",
+    "book": "1 Corinthians",
+    "chapter": 13,
+    "verse": 4
+  },
+  {
+    "id": 31,
+    "reference": "Ephesians 2:8",
+    "text": "For it is by grace you have been saved, through faith\u2014and this is not from yourselves, it is the gift of God.",
+    "book": "Ephesians",
+    "chapter": 2,
+    "verse": 8
+  },
+  {
+    "id": 32,
+    "reference": "Galatians 5:22",
+    "text": "But the fruit of the Spirit is love, joy, peace, forbearance, kindness, goodness, faithfulness.",
+    "book": "Galatians",
+    "chapter": 5,
+    "verse": 22
+  },
+  {
+    "id": 33,
+    "reference": "Hebrews 11:1",
+    "text": "Now faith is confidence in what we hope for and assurance about what we do not see.",
+    "book": "Hebrews",
+    "chapter": 11,
+    "verse": 1
+  },
+  {
+    "id": 34,
+    "reference": "James 1:2",
+    "text": "Consider it pure joy, my brothers and sisters, whenever you face trials of many kinds.",
+    "book": "James",
+    "chapter": 1,
+    "verse": 2
+  },
+  {
+    "id": 35,
+    "reference": "1 Peter 5:7",
+    "text": "Cast all your anxiety on him because he cares for you.",
+    "book": "1 Peter",
+    "chapter": 5,
+    "verse": 7
+  },
+  {
+    "id": 36,
+    "reference": "Psalm 46:1",
+    "text": "God is our refuge and strength, an ever-present help in trouble.",
+    "book": "Psalm",
+    "chapter": 46,
+    "verse": 1
+  },
+  {
+    "id": 37,
+    "reference": "Proverbs 16:3",
+    "text": "Commit to the Lord whatever you do, and he will establish your plans.",
+    "book": "Proverbs",
+    "chapter": 16,
+    "verse": 3
+  },
+  {
+    "id": 38,
+    "reference": "Matthew 6:26",
+    "text": "Look at the birds of the air; they do not sow or reap or store away in barns, and yet your heavenly Father feeds them. Are you not much more valuable than they?",
+    "book": "Matthew",
+    "chapter": 6,
+    "verse": 26
+  },
+  {
+    "id": 39,
+    "reference": "Romans 12:2",
+    "text": "Do not conform to the pattern of this world, but be transformed by the renewing of your mind.",
+    "book": "Romans",
+    "chapter": 12,
+    "verse": 2
+  },
+  {
+    "id": 40,
+    "reference": "Colossians 3:23",
+    "text": "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters.",
+    "book": "Colossians",
+    "chapter": 3,
+    "verse": 23
+  },
+  {
+    "id": 41,
+    "reference": "Psalm 23:1",
+    "text": "The Lord is my shepherd; I shall not want.",
+    "book": "Psalm",
+    "chapter": 23,
+    "verse": 1
+  },
+  {
+    "id": 42,
+    "reference": "John 1:1",
+    "text": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+    "book": "John",
+    "chapter": 1,
+    "verse": 1
+  },
+  {
+    "id": 43,
+    "reference": "Philippians 4:6",
+    "text": "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God.",
+    "book": "Philippians",
+    "chapter": 4,
+    "verse": 6
+  },
+  {
+    "id": 44,
+    "reference": "Romans 8:28",
+    "text": "And we know that in all things God works for the good of those who love him, who have been called according to his purpose.",
+    "book": "Romans",
+    "chapter": 8,
+    "verse": 28
+  },
+  {
+    "id": 45,
+    "reference": "Proverbs 3:5",
+    "text": "Trust in the Lord with all your heart and lean not on your own understanding.",
+    "book": "Proverbs",
+    "chapter": 3,
+    "verse": 5
+  },
+  {
+    "id": 46,
+    "reference": "Matthew 5:14",
+    "text": "You are the light of the world. A town built on a hill cannot be hidden.",
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": 14
+  },
+  {
+    "id": 47,
+    "reference": "Isaiah 41:10",
+    "text": "Fear not, for I am with you; be not dismayed, for I am your God. I will strengthen you, I will help you, I will uphold you with my righteous right hand.",
+    "book": "Isaiah",
+    "chapter": 41,
+    "verse": 10
+  },
+  {
+    "id": 48,
+    "reference": "Jeremiah 29:11",
+    "text": "For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future.",
+    "book": "Jeremiah",
+    "chapter": 29,
+    "verse": 11
+  },
+  {
+    "id": 49,
+    "reference": "Joshua 1:9",
+    "text": "Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.",
+    "book": "Joshua",
+    "chapter": 1,
+    "verse": 9
+  },
+  {
+    "id": 50,
+    "reference": "1 Corinthians 13:4",
+    "text": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud.",
+    "book": "1 Corinthians",
+    "chapter": 13,
+    "verse": 4
+  },
+  {
+    "id": 51,
+    "reference": "Ephesians 2:8",
+    "text": "For it is by grace you have been saved, through faith\u2014and this is not from yourselves, it is the gift of God.",
+    "book": "Ephesians",
+    "chapter": 2,
+    "verse": 8
+  },
+  {
+    "id": 52,
+    "reference": "Galatians 5:22",
+    "text": "But the fruit of the Spirit is love, joy, peace, forbearance, kindness, goodness, faithfulness.",
+    "book": "Galatians",
+    "chapter": 5,
+    "verse": 22
+  },
+  {
+    "id": 53,
+    "reference": "Hebrews 11:1",
+    "text": "Now faith is confidence in what we hope for and assurance about what we do not see.",
+    "book": "Hebrews",
+    "chapter": 11,
+    "verse": 1
+  },
+  {
+    "id": 54,
+    "reference": "James 1:2",
+    "text": "Consider it pure joy, my brothers and sisters, whenever you face trials of many kinds.",
+    "book": "James",
+    "chapter": 1,
+    "verse": 2
+  },
+  {
+    "id": 55,
+    "reference": "1 Peter 5:7",
+    "text": "Cast all your anxiety on him because he cares for you.",
+    "book": "1 Peter",
+    "chapter": 5,
+    "verse": 7
+  },
+  {
+    "id": 56,
+    "reference": "Psalm 46:1",
+    "text": "God is our refuge and strength, an ever-present help in trouble.",
+    "book": "Psalm",
+    "chapter": 46,
+    "verse": 1
+  },
+  {
+    "id": 57,
+    "reference": "Proverbs 16:3",
+    "text": "Commit to the Lord whatever you do, and he will establish your plans.",
+    "book": "Proverbs",
+    "chapter": 16,
+    "verse": 3
+  },
+  {
+    "id": 58,
+    "reference": "Matthew 6:26",
+    "text": "Look at the birds of the air; they do not sow or reap or store away in barns, and yet your heavenly Father feeds them. Are you not much more valuable than they?",
+    "book": "Matthew",
+    "chapter": 6,
+    "verse": 26
+  },
+  {
+    "id": 59,
+    "reference": "Romans 12:2",
+    "text": "Do not conform to the pattern of this world, but be transformed by the renewing of your mind.",
+    "book": "Romans",
+    "chapter": 12,
+    "verse": 2
+  },
+  {
+    "id": 60,
+    "reference": "Colossians 3:23",
+    "text": "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters.",
+    "book": "Colossians",
+    "chapter": 3,
+    "verse": 23
+  },
+  {
+    "id": 61,
+    "reference": "Psalm 23:1",
+    "text": "The Lord is my shepherd; I shall not want.",
+    "book": "Psalm",
+    "chapter": 23,
+    "verse": 1
+  },
+  {
+    "id": 62,
+    "reference": "John 1:1",
+    "text": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+    "book": "John",
+    "chapter": 1,
+    "verse": 1
+  },
+  {
+    "id": 63,
+    "reference": "Philippians 4:6",
+    "text": "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God.",
+    "book": "Philippians",
+    "chapter": 4,
+    "verse": 6
+  },
+  {
+    "id": 64,
+    "reference": "Romans 8:28",
+    "text": "And we know that in all things God works for the good of those who love him, who have been called according to his purpose.",
+    "book": "Romans",
+    "chapter": 8,
+    "verse": 28
+  },
+  {
+    "id": 65,
+    "reference": "Proverbs 3:5",
+    "text": "Trust in the Lord with all your heart and lean not on your own understanding.",
+    "book": "Proverbs",
+    "chapter": 3,
+    "verse": 5
+  },
+  {
+    "id": 66,
+    "reference": "Matthew 5:14",
+    "text": "You are the light of the world. A town built on a hill cannot be hidden.",
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": 14
+  },
+  {
+    "id": 67,
+    "reference": "Isaiah 41:10",
+    "text": "Fear not, for I am with you; be not dismayed, for I am your God. I will strengthen you, I will help you, I will uphold you with my righteous right hand.",
+    "book": "Isaiah",
+    "chapter": 41,
+    "verse": 10
+  },
+  {
+    "id": 68,
+    "reference": "Jeremiah 29:11",
+    "text": "For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future.",
+    "book": "Jeremiah",
+    "chapter": 29,
+    "verse": 11
+  },
+  {
+    "id": 69,
+    "reference": "Joshua 1:9",
+    "text": "Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.",
+    "book": "Joshua",
+    "chapter": 1,
+    "verse": 9
+  },
+  {
+    "id": 70,
+    "reference": "1 Corinthians 13:4",
+    "text": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud.",
+    "book": "1 Corinthians",
+    "chapter": 13,
+    "verse": 4
+  },
+  {
+    "id": 71,
+    "reference": "Ephesians 2:8",
+    "text": "For it is by grace you have been saved, through faith\u2014and this is not from yourselves, it is the gift of God.",
+    "book": "Ephesians",
+    "chapter": 2,
+    "verse": 8
+  },
+  {
+    "id": 72,
+    "reference": "Galatians 5:22",
+    "text": "But the fruit of the Spirit is love, joy, peace, forbearance, kindness, goodness, faithfulness.",
+    "book": "Galatians",
+    "chapter": 5,
+    "verse": 22
+  },
+  {
+    "id": 73,
+    "reference": "Hebrews 11:1",
+    "text": "Now faith is confidence in what we hope for and assurance about what we do not see.",
+    "book": "Hebrews",
+    "chapter": 11,
+    "verse": 1
+  },
+  {
+    "id": 74,
+    "reference": "James 1:2",
+    "text": "Consider it pure joy, my brothers and sisters, whenever you face trials of many kinds.",
+    "book": "James",
+    "chapter": 1,
+    "verse": 2
+  },
+  {
+    "id": 75,
+    "reference": "1 Peter 5:7",
+    "text": "Cast all your anxiety on him because he cares for you.",
+    "book": "1 Peter",
+    "chapter": 5,
+    "verse": 7
+  },
+  {
+    "id": 76,
+    "reference": "Psalm 46:1",
+    "text": "God is our refuge and strength, an ever-present help in trouble.",
+    "book": "Psalm",
+    "chapter": 46,
+    "verse": 1
+  },
+  {
+    "id": 77,
+    "reference": "Proverbs 16:3",
+    "text": "Commit to the Lord whatever you do, and he will establish your plans.",
+    "book": "Proverbs",
+    "chapter": 16,
+    "verse": 3
+  },
+  {
+    "id": 78,
+    "reference": "Matthew 6:26",
+    "text": "Look at the birds of the air; they do not sow or reap or store away in barns, and yet your heavenly Father feeds them. Are you not much more valuable than they?",
+    "book": "Matthew",
+    "chapter": 6,
+    "verse": 26
+  },
+  {
+    "id": 79,
+    "reference": "Romans 12:2",
+    "text": "Do not conform to the pattern of this world, but be transformed by the renewing of your mind.",
+    "book": "Romans",
+    "chapter": 12,
+    "verse": 2
+  },
+  {
+    "id": 80,
+    "reference": "Colossians 3:23",
+    "text": "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters.",
+    "book": "Colossians",
+    "chapter": 3,
+    "verse": 23
+  },
+  {
+    "id": 81,
+    "reference": "Psalm 23:1",
+    "text": "The Lord is my shepherd; I shall not want.",
+    "book": "Psalm",
+    "chapter": 23,
+    "verse": 1
+  },
+  {
+    "id": 82,
+    "reference": "John 1:1",
+    "text": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+    "book": "John",
+    "chapter": 1,
+    "verse": 1
+  },
+  {
+    "id": 83,
+    "reference": "Philippians 4:6",
+    "text": "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God.",
+    "book": "Philippians",
+    "chapter": 4,
+    "verse": 6
+  },
+  {
+    "id": 84,
+    "reference": "Romans 8:28",
+    "text": "And we know that in all things God works for the good of those who love him, who have been called according to his purpose.",
+    "book": "Romans",
+    "chapter": 8,
+    "verse": 28
+  },
+  {
+    "id": 85,
+    "reference": "Proverbs 3:5",
+    "text": "Trust in the Lord with all your heart and lean not on your own understanding.",
+    "book": "Proverbs",
+    "chapter": 3,
+    "verse": 5
+  },
+  {
+    "id": 86,
+    "reference": "Matthew 5:14",
+    "text": "You are the light of the world. A town built on a hill cannot be hidden.",
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": 14
+  },
+  {
+    "id": 87,
+    "reference": "Isaiah 41:10",
+    "text": "Fear not, for I am with you; be not dismayed, for I am your God. I will strengthen you, I will help you, I will uphold you with my righteous right hand.",
+    "book": "Isaiah",
+    "chapter": 41,
+    "verse": 10
+  },
+  {
+    "id": 88,
+    "reference": "Jeremiah 29:11",
+    "text": "For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future.",
+    "book": "Jeremiah",
+    "chapter": 29,
+    "verse": 11
+  },
+  {
+    "id": 89,
+    "reference": "Joshua 1:9",
+    "text": "Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.",
+    "book": "Joshua",
+    "chapter": 1,
+    "verse": 9
+  },
+  {
+    "id": 90,
+    "reference": "1 Corinthians 13:4",
+    "text": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud.",
+    "book": "1 Corinthians",
+    "chapter": 13,
+    "verse": 4
+  },
+  {
+    "id": 91,
+    "reference": "Ephesians 2:8",
+    "text": "For it is by grace you have been saved, through faith\u2014and this is not from yourselves, it is the gift of God.",
+    "book": "Ephesians",
+    "chapter": 2,
+    "verse": 8
+  },
+  {
+    "id": 92,
+    "reference": "Galatians 5:22",
+    "text": "But the fruit of the Spirit is love, joy, peace, forbearance, kindness, goodness, faithfulness.",
+    "book": "Galatians",
+    "chapter": 5,
+    "verse": 22
+  },
+  {
+    "id": 93,
+    "reference": "Hebrews 11:1",
+    "text": "Now faith is confidence in what we hope for and assurance about what we do not see.",
+    "book": "Hebrews",
+    "chapter": 11,
+    "verse": 1
+  },
+  {
+    "id": 94,
+    "reference": "James 1:2",
+    "text": "Consider it pure joy, my brothers and sisters, whenever you face trials of many kinds.",
+    "book": "James",
+    "chapter": 1,
+    "verse": 2
+  },
+  {
+    "id": 95,
+    "reference": "1 Peter 5:7",
+    "text": "Cast all your anxiety on him because he cares for you.",
+    "book": "1 Peter",
+    "chapter": 5,
+    "verse": 7
+  },
+  {
+    "id": 96,
+    "reference": "Psalm 46:1",
+    "text": "God is our refuge and strength, an ever-present help in trouble.",
+    "book": "Psalm",
+    "chapter": 46,
+    "verse": 1
+  },
+  {
+    "id": 97,
+    "reference": "Proverbs 16:3",
+    "text": "Commit to the Lord whatever you do, and he will establish your plans.",
+    "book": "Proverbs",
+    "chapter": 16,
+    "verse": 3
+  },
+  {
+    "id": 98,
+    "reference": "Matthew 6:26",
+    "text": "Look at the birds of the air; they do not sow or reap or store away in barns, and yet your heavenly Father feeds them. Are you not much more valuable than they?",
+    "book": "Matthew",
+    "chapter": 6,
+    "verse": 26
+  },
+  {
+    "id": 99,
+    "reference": "Romans 12:2",
+    "text": "Do not conform to the pattern of this world, but be transformed by the renewing of your mind.",
+    "book": "Romans",
+    "chapter": 12,
+    "verse": 2
+  },
+  {
+    "id": 100,
+    "reference": "Colossians 3:23",
+    "text": "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters.",
+    "book": "Colossians",
+    "chapter": 3,
+    "verse": 23
+  },
+  {
+    "id": 101,
+    "reference": "Psalm 23:1",
+    "text": "The Lord is my shepherd; I shall not want.",
+    "book": "Psalm",
+    "chapter": 23,
+    "verse": 1
+  },
+  {
+    "id": 102,
+    "reference": "John 1:1",
+    "text": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+    "book": "John",
+    "chapter": 1,
+    "verse": 1
+  },
+  {
+    "id": 103,
+    "reference": "Philippians 4:6",
+    "text": "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God.",
+    "book": "Philippians",
+    "chapter": 4,
+    "verse": 6
+  },
+  {
+    "id": 104,
+    "reference": "Romans 8:28",
+    "text": "And we know that in all things God works for the good of those who love him, who have been called according to his purpose.",
+    "book": "Romans",
+    "chapter": 8,
+    "verse": 28
+  },
+  {
+    "id": 105,
+    "reference": "Proverbs 3:5",
+    "text": "Trust in the Lord with all your heart and lean not on your own understanding.",
+    "book": "Proverbs",
+    "chapter": 3,
+    "verse": 5
+  },
+  {
+    "id": 106,
+    "reference": "Matthew 5:14",
+    "text": "You are the light of the world. A town built on a hill cannot be hidden.",
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": 14
+  },
+  {
+    "id": 107,
+    "reference": "Isaiah 41:10",
+    "text": "Fear not, for I am with you; be not dismayed, for I am your God. I will strengthen you, I will help you, I will uphold you with my righteous right hand.",
+    "book": "Isaiah",
+    "chapter": 41,
+    "verse": 10
+  },
+  {
+    "id": 108,
+    "reference": "Jeremiah 29:11",
+    "text": "For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future.",
+    "book": "Jeremiah",
+    "chapter": 29,
+    "verse": 11
+  },
+  {
+    "id": 109,
+    "reference": "Joshua 1:9",
+    "text": "Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.",
+    "book": "Joshua",
+    "chapter": 1,
+    "verse": 9
+  },
+  {
+    "id": 110,
+    "reference": "1 Corinthians 13:4",
+    "text": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud.",
+    "book": "1 Corinthians",
+    "chapter": 13,
+    "verse": 4
+  },
+  {
+    "id": 111,
+    "reference": "Ephesians 2:8",
+    "text": "For it is by grace you have been saved, through faith\u2014and this is not from yourselves, it is the gift of God.",
+    "book": "Ephesians",
+    "chapter": 2,
+    "verse": 8
+  },
+  {
+    "id": 112,
+    "reference": "Galatians 5:22",
+    "text": "But the fruit of the Spirit is love, joy, peace, forbearance, kindness, goodness, faithfulness.",
+    "book": "Galatians",
+    "chapter": 5,
+    "verse": 22
+  },
+  {
+    "id": 113,
+    "reference": "Hebrews 11:1",
+    "text": "Now faith is confidence in what we hope for and assurance about what we do not see.",
+    "book": "Hebrews",
+    "chapter": 11,
+    "verse": 1
+  },
+  {
+    "id": 114,
+    "reference": "James 1:2",
+    "text": "Consider it pure joy, my brothers and sisters, whenever you face trials of many kinds.",
+    "book": "James",
+    "chapter": 1,
+    "verse": 2
+  },
+  {
+    "id": 115,
+    "reference": "1 Peter 5:7",
+    "text": "Cast all your anxiety on him because he cares for you.",
+    "book": "1 Peter",
+    "chapter": 5,
+    "verse": 7
+  },
+  {
+    "id": 116,
+    "reference": "Psalm 46:1",
+    "text": "God is our refuge and strength, an ever-present help in trouble.",
+    "book": "Psalm",
+    "chapter": 46,
+    "verse": 1
+  },
+  {
+    "id": 117,
+    "reference": "Proverbs 16:3",
+    "text": "Commit to the Lord whatever you do, and he will establish your plans.",
+    "book": "Proverbs",
+    "chapter": 16,
+    "verse": 3
+  },
+  {
+    "id": 118,
+    "reference": "Matthew 6:26",
+    "text": "Look at the birds of the air; they do not sow or reap or store away in barns, and yet your heavenly Father feeds them. Are you not much more valuable than they?",
+    "book": "Matthew",
+    "chapter": 6,
+    "verse": 26
+  },
+  {
+    "id": 119,
+    "reference": "Romans 12:2",
+    "text": "Do not conform to the pattern of this world, but be transformed by the renewing of your mind.",
+    "book": "Romans",
+    "chapter": 12,
+    "verse": 2
+  },
+  {
+    "id": 120,
+    "reference": "Colossians 3:23",
+    "text": "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters.",
+    "book": "Colossians",
+    "chapter": 3,
+    "verse": 23
+  },
+  {
+    "id": 121,
+    "reference": "Psalm 23:1",
+    "text": "The Lord is my shepherd; I shall not want.",
+    "book": "Psalm",
+    "chapter": 23,
+    "verse": 1
+  },
+  {
+    "id": 122,
+    "reference": "John 1:1",
+    "text": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+    "book": "John",
+    "chapter": 1,
+    "verse": 1
+  },
+  {
+    "id": 123,
+    "reference": "Philippians 4:6",
+    "text": "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God.",
+    "book": "Philippians",
+    "chapter": 4,
+    "verse": 6
+  },
+  {
+    "id": 124,
+    "reference": "Romans 8:28",
+    "text": "And we know that in all things God works for the good of those who love him, who have been called according to his purpose.",
+    "book": "Romans",
+    "chapter": 8,
+    "verse": 28
+  },
+  {
+    "id": 125,
+    "reference": "Proverbs 3:5",
+    "text": "Trust in the Lord with all your heart and lean not on your own understanding.",
+    "book": "Proverbs",
+    "chapter": 3,
+    "verse": 5
+  },
+  {
+    "id": 126,
+    "reference": "Matthew 5:14",
+    "text": "You are the light of the world. A town built on a hill cannot be hidden.",
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": 14
+  },
+  {
+    "id": 127,
+    "reference": "Isaiah 41:10",
+    "text": "Fear not, for I am with you; be not dismayed, for I am your God. I will strengthen you, I will help you, I will uphold you with my righteous right hand.",
+    "book": "Isaiah",
+    "chapter": 41,
+    "verse": 10
+  },
+  {
+    "id": 128,
+    "reference": "Jeremiah 29:11",
+    "text": "For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future.",
+    "book": "Jeremiah",
+    "chapter": 29,
+    "verse": 11
+  },
+  {
+    "id": 129,
+    "reference": "Joshua 1:9",
+    "text": "Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.",
+    "book": "Joshua",
+    "chapter": 1,
+    "verse": 9
+  },
+  {
+    "id": 130,
+    "reference": "1 Corinthians 13:4",
+    "text": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud.",
+    "book": "1 Corinthians",
+    "chapter": 13,
+    "verse": 4
+  },
+  {
+    "id": 131,
+    "reference": "Ephesians 2:8",
+    "text": "For it is by grace you have been saved, through faith\u2014and this is not from yourselves, it is the gift of God.",
+    "book": "Ephesians",
+    "chapter": 2,
+    "verse": 8
+  },
+  {
+    "id": 132,
+    "reference": "Galatians 5:22",
+    "text": "But the fruit of the Spirit is love, joy, peace, forbearance, kindness, goodness, faithfulness.",
+    "book": "Galatians",
+    "chapter": 5,
+    "verse": 22
+  },
+  {
+    "id": 133,
+    "reference": "Hebrews 11:1",
+    "text": "Now faith is confidence in what we hope for and assurance about what we do not see.",
+    "book": "Hebrews",
+    "chapter": 11,
+    "verse": 1
+  },
+  {
+    "id": 134,
+    "reference": "James 1:2",
+    "text": "Consider it pure joy, my brothers and sisters, whenever you face trials of many kinds.",
+    "book": "James",
+    "chapter": 1,
+    "verse": 2
+  },
+  {
+    "id": 135,
+    "reference": "1 Peter 5:7",
+    "text": "Cast all your anxiety on him because he cares for you.",
+    "book": "1 Peter",
+    "chapter": 5,
+    "verse": 7
+  },
+  {
+    "id": 136,
+    "reference": "Psalm 46:1",
+    "text": "God is our refuge and strength, an ever-present help in trouble.",
+    "book": "Psalm",
+    "chapter": 46,
+    "verse": 1
+  },
+  {
+    "id": 137,
+    "reference": "Proverbs 16:3",
+    "text": "Commit to the Lord whatever you do, and he will establish your plans.",
+    "book": "Proverbs",
+    "chapter": 16,
+    "verse": 3
+  },
+  {
+    "id": 138,
+    "reference": "Matthew 6:26",
+    "text": "Look at the birds of the air; they do not sow or reap or store away in barns, and yet your heavenly Father feeds them. Are you not much more valuable than they?",
+    "book": "Matthew",
+    "chapter": 6,
+    "verse": 26
+  },
+  {
+    "id": 139,
+    "reference": "Romans 12:2",
+    "text": "Do not conform to the pattern of this world, but be transformed by the renewing of your mind.",
+    "book": "Romans",
+    "chapter": 12,
+    "verse": 2
+  },
+  {
+    "id": 140,
+    "reference": "Colossians 3:23",
+    "text": "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters.",
+    "book": "Colossians",
+    "chapter": 3,
+    "verse": 23
+  },
+  {
+    "id": 141,
+    "reference": "Psalm 23:1",
+    "text": "The Lord is my shepherd; I shall not want.",
+    "book": "Psalm",
+    "chapter": 23,
+    "verse": 1
+  },
+  {
+    "id": 142,
+    "reference": "John 1:1",
+    "text": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+    "book": "John",
+    "chapter": 1,
+    "verse": 1
+  },
+  {
+    "id": 143,
+    "reference": "Philippians 4:6",
+    "text": "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God.",
+    "book": "Philippians",
+    "chapter": 4,
+    "verse": 6
+  },
+  {
+    "id": 144,
+    "reference": "Romans 8:28",
+    "text": "And we know that in all things God works for the good of those who love him, who have been called according to his purpose.",
+    "book": "Romans",
+    "chapter": 8,
+    "verse": 28
+  },
+  {
+    "id": 145,
+    "reference": "Proverbs 3:5",
+    "text": "Trust in the Lord with all your heart and lean not on your own understanding.",
+    "book": "Proverbs",
+    "chapter": 3,
+    "verse": 5
+  },
+  {
+    "id": 146,
+    "reference": "Matthew 5:14",
+    "text": "You are the light of the world. A town built on a hill cannot be hidden.",
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": 14
+  },
+  {
+    "id": 147,
+    "reference": "Isaiah 41:10",
+    "text": "Fear not, for I am with you; be not dismayed, for I am your God. I will strengthen you, I will help you, I will uphold you with my righteous right hand.",
+    "book": "Isaiah",
+    "chapter": 41,
+    "verse": 10
+  },
+  {
+    "id": 148,
+    "reference": "Jeremiah 29:11",
+    "text": "For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future.",
+    "book": "Jeremiah",
+    "chapter": 29,
+    "verse": 11
+  },
+  {
+    "id": 149,
+    "reference": "Joshua 1:9",
+    "text": "Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.",
+    "book": "Joshua",
+    "chapter": 1,
+    "verse": 9
+  },
+  {
+    "id": 150,
+    "reference": "1 Corinthians 13:4",
+    "text": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud.",
+    "book": "1 Corinthians",
+    "chapter": 13,
+    "verse": 4
+  },
+  {
+    "id": 151,
+    "reference": "Ephesians 2:8",
+    "text": "For it is by grace you have been saved, through faith\u2014and this is not from yourselves, it is the gift of God.",
+    "book": "Ephesians",
+    "chapter": 2,
+    "verse": 8
+  },
+  {
+    "id": 152,
+    "reference": "Galatians 5:22",
+    "text": "But the fruit of the Spirit is love, joy, peace, forbearance, kindness, goodness, faithfulness.",
+    "book": "Galatians",
+    "chapter": 5,
+    "verse": 22
+  },
+  {
+    "id": 153,
+    "reference": "Hebrews 11:1",
+    "text": "Now faith is confidence in what we hope for and assurance about what we do not see.",
+    "book": "Hebrews",
+    "chapter": 11,
+    "verse": 1
+  },
+  {
+    "id": 154,
+    "reference": "James 1:2",
+    "text": "Consider it pure joy, my brothers and sisters, whenever you face trials of many kinds.",
+    "book": "James",
+    "chapter": 1,
+    "verse": 2
+  },
+  {
+    "id": 155,
+    "reference": "1 Peter 5:7",
+    "text": "Cast all your anxiety on him because he cares for you.",
+    "book": "1 Peter",
+    "chapter": 5,
+    "verse": 7
+  },
+  {
+    "id": 156,
+    "reference": "Psalm 46:1",
+    "text": "God is our refuge and strength, an ever-present help in trouble.",
+    "book": "Psalm",
+    "chapter": 46,
+    "verse": 1
+  },
+  {
+    "id": 157,
+    "reference": "Proverbs 16:3",
+    "text": "Commit to the Lord whatever you do, and he will establish your plans.",
+    "book": "Proverbs",
+    "chapter": 16,
+    "verse": 3
+  },
+  {
+    "id": 158,
+    "reference": "Matthew 6:26",
+    "text": "Look at the birds of the air; they do not sow or reap or store away in barns, and yet your heavenly Father feeds them. Are you not much more valuable than they?",
+    "book": "Matthew",
+    "chapter": 6,
+    "verse": 26
+  },
+  {
+    "id": 159,
+    "reference": "Romans 12:2",
+    "text": "Do not conform to the pattern of this world, but be transformed by the renewing of your mind.",
+    "book": "Romans",
+    "chapter": 12,
+    "verse": 2
+  },
+  {
+    "id": 160,
+    "reference": "Colossians 3:23",
+    "text": "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters.",
+    "book": "Colossians",
+    "chapter": 3,
+    "verse": 23
+  },
+  {
+    "id": 161,
+    "reference": "Psalm 23:1",
+    "text": "The Lord is my shepherd; I shall not want.",
+    "book": "Psalm",
+    "chapter": 23,
+    "verse": 1
+  },
+  {
+    "id": 162,
+    "reference": "John 1:1",
+    "text": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+    "book": "John",
+    "chapter": 1,
+    "verse": 1
+  },
+  {
+    "id": 163,
+    "reference": "Philippians 4:6",
+    "text": "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God.",
+    "book": "Philippians",
+    "chapter": 4,
+    "verse": 6
+  },
+  {
+    "id": 164,
+    "reference": "Romans 8:28",
+    "text": "And we know that in all things God works for the good of those who love him, who have been called according to his purpose.",
+    "book": "Romans",
+    "chapter": 8,
+    "verse": 28
+  },
+  {
+    "id": 165,
+    "reference": "Proverbs 3:5",
+    "text": "Trust in the Lord with all your heart and lean not on your own understanding.",
+    "book": "Proverbs",
+    "chapter": 3,
+    "verse": 5
+  },
+  {
+    "id": 166,
+    "reference": "Matthew 5:14",
+    "text": "You are the light of the world. A town built on a hill cannot be hidden.",
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": 14
+  },
+  {
+    "id": 167,
+    "reference": "Isaiah 41:10",
+    "text": "Fear not, for I am with you; be not dismayed, for I am your God. I will strengthen you, I will help you, I will uphold you with my righteous right hand.",
+    "book": "Isaiah",
+    "chapter": 41,
+    "verse": 10
+  },
+  {
+    "id": 168,
+    "reference": "Jeremiah 29:11",
+    "text": "For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future.",
+    "book": "Jeremiah",
+    "chapter": 29,
+    "verse": 11
+  },
+  {
+    "id": 169,
+    "reference": "Joshua 1:9",
+    "text": "Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.",
+    "book": "Joshua",
+    "chapter": 1,
+    "verse": 9
+  },
+  {
+    "id": 170,
+    "reference": "1 Corinthians 13:4",
+    "text": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud.",
+    "book": "1 Corinthians",
+    "chapter": 13,
+    "verse": 4
+  },
+  {
+    "id": 171,
+    "reference": "Ephesians 2:8",
+    "text": "For it is by grace you have been saved, through faith\u2014and this is not from yourselves, it is the gift of God.",
+    "book": "Ephesians",
+    "chapter": 2,
+    "verse": 8
+  },
+  {
+    "id": 172,
+    "reference": "Galatians 5:22",
+    "text": "But the fruit of the Spirit is love, joy, peace, forbearance, kindness, goodness, faithfulness.",
+    "book": "Galatians",
+    "chapter": 5,
+    "verse": 22
+  },
+  {
+    "id": 173,
+    "reference": "Hebrews 11:1",
+    "text": "Now faith is confidence in what we hope for and assurance about what we do not see.",
+    "book": "Hebrews",
+    "chapter": 11,
+    "verse": 1
+  },
+  {
+    "id": 174,
+    "reference": "James 1:2",
+    "text": "Consider it pure joy, my brothers and sisters, whenever you face trials of many kinds.",
+    "book": "James",
+    "chapter": 1,
+    "verse": 2
+  },
+  {
+    "id": 175,
+    "reference": "1 Peter 5:7",
+    "text": "Cast all your anxiety on him because he cares for you.",
+    "book": "1 Peter",
+    "chapter": 5,
+    "verse": 7
+  },
+  {
+    "id": 176,
+    "reference": "Psalm 46:1",
+    "text": "God is our refuge and strength, an ever-present help in trouble.",
+    "book": "Psalm",
+    "chapter": 46,
+    "verse": 1
+  },
+  {
+    "id": 177,
+    "reference": "Proverbs 16:3",
+    "text": "Commit to the Lord whatever you do, and he will establish your plans.",
+    "book": "Proverbs",
+    "chapter": 16,
+    "verse": 3
+  },
+  {
+    "id": 178,
+    "reference": "Matthew 6:26",
+    "text": "Look at the birds of the air; they do not sow or reap or store away in barns, and yet your heavenly Father feeds them. Are you not much more valuable than they?",
+    "book": "Matthew",
+    "chapter": 6,
+    "verse": 26
+  },
+  {
+    "id": 179,
+    "reference": "Romans 12:2",
+    "text": "Do not conform to the pattern of this world, but be transformed by the renewing of your mind.",
+    "book": "Romans",
+    "chapter": 12,
+    "verse": 2
+  },
+  {
+    "id": 180,
+    "reference": "Colossians 3:23",
+    "text": "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters.",
+    "book": "Colossians",
+    "chapter": 3,
+    "verse": 23
+  },
+  {
+    "id": 181,
+    "reference": "Psalm 23:1",
+    "text": "The Lord is my shepherd; I shall not want.",
+    "book": "Psalm",
+    "chapter": 23,
+    "verse": 1
+  },
+  {
+    "id": 182,
+    "reference": "John 1:1",
+    "text": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+    "book": "John",
+    "chapter": 1,
+    "verse": 1
+  },
+  {
+    "id": 183,
+    "reference": "Philippians 4:6",
+    "text": "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God.",
+    "book": "Philippians",
+    "chapter": 4,
+    "verse": 6
+  },
+  {
+    "id": 184,
+    "reference": "Romans 8:28",
+    "text": "And we know that in all things God works for the good of those who love him, who have been called according to his purpose.",
+    "book": "Romans",
+    "chapter": 8,
+    "verse": 28
+  },
+  {
+    "id": 185,
+    "reference": "Proverbs 3:5",
+    "text": "Trust in the Lord with all your heart and lean not on your own understanding.",
+    "book": "Proverbs",
+    "chapter": 3,
+    "verse": 5
+  },
+  {
+    "id": 186,
+    "reference": "Matthew 5:14",
+    "text": "You are the light of the world. A town built on a hill cannot be hidden.",
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": 14
+  },
+  {
+    "id": 187,
+    "reference": "Isaiah 41:10",
+    "text": "Fear not, for I am with you; be not dismayed, for I am your God. I will strengthen you, I will help you, I will uphold you with my righteous right hand.",
+    "book": "Isaiah",
+    "chapter": 41,
+    "verse": 10
+  },
+  {
+    "id": 188,
+    "reference": "Jeremiah 29:11",
+    "text": "For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future.",
+    "book": "Jeremiah",
+    "chapter": 29,
+    "verse": 11
+  },
+  {
+    "id": 189,
+    "reference": "Joshua 1:9",
+    "text": "Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.",
+    "book": "Joshua",
+    "chapter": 1,
+    "verse": 9
+  },
+  {
+    "id": 190,
+    "reference": "1 Corinthians 13:4",
+    "text": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud.",
+    "book": "1 Corinthians",
+    "chapter": 13,
+    "verse": 4
+  },
+  {
+    "id": 191,
+    "reference": "Ephesians 2:8",
+    "text": "For it is by grace you have been saved, through faith\u2014and this is not from yourselves, it is the gift of God.",
+    "book": "Ephesians",
+    "chapter": 2,
+    "verse": 8
+  },
+  {
+    "id": 192,
+    "reference": "Galatians 5:22",
+    "text": "But the fruit of the Spirit is love, joy, peace, forbearance, kindness, goodness, faithfulness.",
+    "book": "Galatians",
+    "chapter": 5,
+    "verse": 22
+  },
+  {
+    "id": 193,
+    "reference": "Hebrews 11:1",
+    "text": "Now faith is confidence in what we hope for and assurance about what we do not see.",
+    "book": "Hebrews",
+    "chapter": 11,
+    "verse": 1
+  },
+  {
+    "id": 194,
+    "reference": "James 1:2",
+    "text": "Consider it pure joy, my brothers and sisters, whenever you face trials of many kinds.",
+    "book": "James",
+    "chapter": 1,
+    "verse": 2
+  },
+  {
+    "id": 195,
+    "reference": "1 Peter 5:7",
+    "text": "Cast all your anxiety on him because he cares for you.",
+    "book": "1 Peter",
+    "chapter": 5,
+    "verse": 7
+  },
+  {
+    "id": 196,
+    "reference": "Psalm 46:1",
+    "text": "God is our refuge and strength, an ever-present help in trouble.",
+    "book": "Psalm",
+    "chapter": 46,
+    "verse": 1
+  },
+  {
+    "id": 197,
+    "reference": "Proverbs 16:3",
+    "text": "Commit to the Lord whatever you do, and he will establish your plans.",
+    "book": "Proverbs",
+    "chapter": 16,
+    "verse": 3
+  },
+  {
+    "id": 198,
+    "reference": "Matthew 6:26",
+    "text": "Look at the birds of the air; they do not sow or reap or store away in barns, and yet your heavenly Father feeds them. Are you not much more valuable than they?",
+    "book": "Matthew",
+    "chapter": 6,
+    "verse": 26
+  },
+  {
+    "id": 199,
+    "reference": "Romans 12:2",
+    "text": "Do not conform to the pattern of this world, but be transformed by the renewing of your mind.",
+    "book": "Romans",
+    "chapter": 12,
+    "verse": 2
+  },
+  {
+    "id": 200,
+    "reference": "Colossians 3:23",
+    "text": "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters.",
+    "book": "Colossians",
+    "chapter": 3,
+    "verse": 23
+  },
+  {
+    "id": 201,
+    "reference": "Psalm 23:1",
+    "text": "The Lord is my shepherd; I shall not want.",
+    "book": "Psalm",
+    "chapter": 23,
+    "verse": 1
+  },
+  {
+    "id": 202,
+    "reference": "John 1:1",
+    "text": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+    "book": "John",
+    "chapter": 1,
+    "verse": 1
+  },
+  {
+    "id": 203,
+    "reference": "Philippians 4:6",
+    "text": "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God.",
+    "book": "Philippians",
+    "chapter": 4,
+    "verse": 6
+  },
+  {
+    "id": 204,
+    "reference": "Romans 8:28",
+    "text": "And we know that in all things God works for the good of those who love him, who have been called according to his purpose.",
+    "book": "Romans",
+    "chapter": 8,
+    "verse": 28
+  },
+  {
+    "id": 205,
+    "reference": "Proverbs 3:5",
+    "text": "Trust in the Lord with all your heart and lean not on your own understanding.",
+    "book": "Proverbs",
+    "chapter": 3,
+    "verse": 5
+  },
+  {
+    "id": 206,
+    "reference": "Matthew 5:14",
+    "text": "You are the light of the world. A town built on a hill cannot be hidden.",
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": 14
+  },
+  {
+    "id": 207,
+    "reference": "Isaiah 41:10",
+    "text": "Fear not, for I am with you; be not dismayed, for I am your God. I will strengthen you, I will help you, I will uphold you with my righteous right hand.",
+    "book": "Isaiah",
+    "chapter": 41,
+    "verse": 10
+  },
+  {
+    "id": 208,
+    "reference": "Jeremiah 29:11",
+    "text": "For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future.",
+    "book": "Jeremiah",
+    "chapter": 29,
+    "verse": 11
+  },
+  {
+    "id": 209,
+    "reference": "Joshua 1:9",
+    "text": "Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.",
+    "book": "Joshua",
+    "chapter": 1,
+    "verse": 9
+  },
+  {
+    "id": 210,
+    "reference": "1 Corinthians 13:4",
+    "text": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud.",
+    "book": "1 Corinthians",
+    "chapter": 13,
+    "verse": 4
+  },
+  {
+    "id": 211,
+    "reference": "Ephesians 2:8",
+    "text": "For it is by grace you have been saved, through faith\u2014and this is not from yourselves, it is the gift of God.",
+    "book": "Ephesians",
+    "chapter": 2,
+    "verse": 8
+  },
+  {
+    "id": 212,
+    "reference": "Galatians 5:22",
+    "text": "But the fruit of the Spirit is love, joy, peace, forbearance, kindness, goodness, faithfulness.",
+    "book": "Galatians",
+    "chapter": 5,
+    "verse": 22
+  },
+  {
+    "id": 213,
+    "reference": "Hebrews 11:1",
+    "text": "Now faith is confidence in what we hope for and assurance about what we do not see.",
+    "book": "Hebrews",
+    "chapter": 11,
+    "verse": 1
+  },
+  {
+    "id": 214,
+    "reference": "James 1:2",
+    "text": "Consider it pure joy, my brothers and sisters, whenever you face trials of many kinds.",
+    "book": "James",
+    "chapter": 1,
+    "verse": 2
+  },
+  {
+    "id": 215,
+    "reference": "1 Peter 5:7",
+    "text": "Cast all your anxiety on him because he cares for you.",
+    "book": "1 Peter",
+    "chapter": 5,
+    "verse": 7
+  },
+  {
+    "id": 216,
+    "reference": "Psalm 46:1",
+    "text": "God is our refuge and strength, an ever-present help in trouble.",
+    "book": "Psalm",
+    "chapter": 46,
+    "verse": 1
+  },
+  {
+    "id": 217,
+    "reference": "Proverbs 16:3",
+    "text": "Commit to the Lord whatever you do, and he will establish your plans.",
+    "book": "Proverbs",
+    "chapter": 16,
+    "verse": 3
+  },
+  {
+    "id": 218,
+    "reference": "Matthew 6:26",
+    "text": "Look at the birds of the air; they do not sow or reap or store away in barns, and yet your heavenly Father feeds them. Are you not much more valuable than they?",
+    "book": "Matthew",
+    "chapter": 6,
+    "verse": 26
+  },
+  {
+    "id": 219,
+    "reference": "Romans 12:2",
+    "text": "Do not conform to the pattern of this world, but be transformed by the renewing of your mind.",
+    "book": "Romans",
+    "chapter": 12,
+    "verse": 2
+  },
+  {
+    "id": 220,
+    "reference": "Colossians 3:23",
+    "text": "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters.",
+    "book": "Colossians",
+    "chapter": 3,
+    "verse": 23
+  },
+  {
+    "id": 221,
+    "reference": "Psalm 23:1",
+    "text": "The Lord is my shepherd; I shall not want.",
+    "book": "Psalm",
+    "chapter": 23,
+    "verse": 1
+  },
+  {
+    "id": 222,
+    "reference": "John 1:1",
+    "text": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+    "book": "John",
+    "chapter": 1,
+    "verse": 1
+  },
+  {
+    "id": 223,
+    "reference": "Philippians 4:6",
+    "text": "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God.",
+    "book": "Philippians",
+    "chapter": 4,
+    "verse": 6
+  },
+  {
+    "id": 224,
+    "reference": "Romans 8:28",
+    "text": "And we know that in all things God works for the good of those who love him, who have been called according to his purpose.",
+    "book": "Romans",
+    "chapter": 8,
+    "verse": 28
+  },
+  {
+    "id": 225,
+    "reference": "Proverbs 3:5",
+    "text": "Trust in the Lord with all your heart and lean not on your own understanding.",
+    "book": "Proverbs",
+    "chapter": 3,
+    "verse": 5
+  },
+  {
+    "id": 226,
+    "reference": "Matthew 5:14",
+    "text": "You are the light of the world. A town built on a hill cannot be hidden.",
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": 14
+  },
+  {
+    "id": 227,
+    "reference": "Isaiah 41:10",
+    "text": "Fear not, for I am with you; be not dismayed, for I am your God. I will strengthen you, I will help you, I will uphold you with my righteous right hand.",
+    "book": "Isaiah",
+    "chapter": 41,
+    "verse": 10
+  },
+  {
+    "id": 228,
+    "reference": "Jeremiah 29:11",
+    "text": "For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future.",
+    "book": "Jeremiah",
+    "chapter": 29,
+    "verse": 11
+  },
+  {
+    "id": 229,
+    "reference": "Joshua 1:9",
+    "text": "Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.",
+    "book": "Joshua",
+    "chapter": 1,
+    "verse": 9
+  },
+  {
+    "id": 230,
+    "reference": "1 Corinthians 13:4",
+    "text": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud.",
+    "book": "1 Corinthians",
+    "chapter": 13,
+    "verse": 4
+  },
+  {
+    "id": 231,
+    "reference": "Ephesians 2:8",
+    "text": "For it is by grace you have been saved, through faith\u2014and this is not from yourselves, it is the gift of God.",
+    "book": "Ephesians",
+    "chapter": 2,
+    "verse": 8
+  },
+  {
+    "id": 232,
+    "reference": "Galatians 5:22",
+    "text": "But the fruit of the Spirit is love, joy, peace, forbearance, kindness, goodness, faithfulness.",
+    "book": "Galatians",
+    "chapter": 5,
+    "verse": 22
+  },
+  {
+    "id": 233,
+    "reference": "Hebrews 11:1",
+    "text": "Now faith is confidence in what we hope for and assurance about what we do not see.",
+    "book": "Hebrews",
+    "chapter": 11,
+    "verse": 1
+  },
+  {
+    "id": 234,
+    "reference": "James 1:2",
+    "text": "Consider it pure joy, my brothers and sisters, whenever you face trials of many kinds.",
+    "book": "James",
+    "chapter": 1,
+    "verse": 2
+  },
+  {
+    "id": 235,
+    "reference": "1 Peter 5:7",
+    "text": "Cast all your anxiety on him because he cares for you.",
+    "book": "1 Peter",
+    "chapter": 5,
+    "verse": 7
+  },
+  {
+    "id": 236,
+    "reference": "Psalm 46:1",
+    "text": "God is our refuge and strength, an ever-present help in trouble.",
+    "book": "Psalm",
+    "chapter": 46,
+    "verse": 1
+  },
+  {
+    "id": 237,
+    "reference": "Proverbs 16:3",
+    "text": "Commit to the Lord whatever you do, and he will establish your plans.",
+    "book": "Proverbs",
+    "chapter": 16,
+    "verse": 3
+  },
+  {
+    "id": 238,
+    "reference": "Matthew 6:26",
+    "text": "Look at the birds of the air; they do not sow or reap or store away in barns, and yet your heavenly Father feeds them. Are you not much more valuable than they?",
+    "book": "Matthew",
+    "chapter": 6,
+    "verse": 26
+  },
+  {
+    "id": 239,
+    "reference": "Romans 12:2",
+    "text": "Do not conform to the pattern of this world, but be transformed by the renewing of your mind.",
+    "book": "Romans",
+    "chapter": 12,
+    "verse": 2
+  },
+  {
+    "id": 240,
+    "reference": "Colossians 3:23",
+    "text": "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters.",
+    "book": "Colossians",
+    "chapter": 3,
+    "verse": 23
+  },
+  {
+    "id": 241,
+    "reference": "Psalm 23:1",
+    "text": "The Lord is my shepherd; I shall not want.",
+    "book": "Psalm",
+    "chapter": 23,
+    "verse": 1
+  },
+  {
+    "id": 242,
+    "reference": "John 1:1",
+    "text": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+    "book": "John",
+    "chapter": 1,
+    "verse": 1
+  },
+  {
+    "id": 243,
+    "reference": "Philippians 4:6",
+    "text": "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God.",
+    "book": "Philippians",
+    "chapter": 4,
+    "verse": 6
+  },
+  {
+    "id": 244,
+    "reference": "Romans 8:28",
+    "text": "And we know that in all things God works for the good of those who love him, who have been called according to his purpose.",
+    "book": "Romans",
+    "chapter": 8,
+    "verse": 28
+  },
+  {
+    "id": 245,
+    "reference": "Proverbs 3:5",
+    "text": "Trust in the Lord with all your heart and lean not on your own understanding.",
+    "book": "Proverbs",
+    "chapter": 3,
+    "verse": 5
+  },
+  {
+    "id": 246,
+    "reference": "Matthew 5:14",
+    "text": "You are the light of the world. A town built on a hill cannot be hidden.",
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": 14
+  },
+  {
+    "id": 247,
+    "reference": "Isaiah 41:10",
+    "text": "Fear not, for I am with you; be not dismayed, for I am your God. I will strengthen you, I will help you, I will uphold you with my righteous right hand.",
+    "book": "Isaiah",
+    "chapter": 41,
+    "verse": 10
+  },
+  {
+    "id": 248,
+    "reference": "Jeremiah 29:11",
+    "text": "For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future.",
+    "book": "Jeremiah",
+    "chapter": 29,
+    "verse": 11
+  },
+  {
+    "id": 249,
+    "reference": "Joshua 1:9",
+    "text": "Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.",
+    "book": "Joshua",
+    "chapter": 1,
+    "verse": 9
+  },
+  {
+    "id": 250,
+    "reference": "1 Corinthians 13:4",
+    "text": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud.",
+    "book": "1 Corinthians",
+    "chapter": 13,
+    "verse": 4
+  },
+  {
+    "id": 251,
+    "reference": "Ephesians 2:8",
+    "text": "For it is by grace you have been saved, through faith\u2014and this is not from yourselves, it is the gift of God.",
+    "book": "Ephesians",
+    "chapter": 2,
+    "verse": 8
+  },
+  {
+    "id": 252,
+    "reference": "Galatians 5:22",
+    "text": "But the fruit of the Spirit is love, joy, peace, forbearance, kindness, goodness, faithfulness.",
+    "book": "Galatians",
+    "chapter": 5,
+    "verse": 22
+  },
+  {
+    "id": 253,
+    "reference": "Hebrews 11:1",
+    "text": "Now faith is confidence in what we hope for and assurance about what we do not see.",
+    "book": "Hebrews",
+    "chapter": 11,
+    "verse": 1
+  },
+  {
+    "id": 254,
+    "reference": "James 1:2",
+    "text": "Consider it pure joy, my brothers and sisters, whenever you face trials of many kinds.",
+    "book": "James",
+    "chapter": 1,
+    "verse": 2
+  },
+  {
+    "id": 255,
+    "reference": "1 Peter 5:7",
+    "text": "Cast all your anxiety on him because he cares for you.",
+    "book": "1 Peter",
+    "chapter": 5,
+    "verse": 7
+  },
+  {
+    "id": 256,
+    "reference": "Psalm 46:1",
+    "text": "God is our refuge and strength, an ever-present help in trouble.",
+    "book": "Psalm",
+    "chapter": 46,
+    "verse": 1
+  },
+  {
+    "id": 257,
+    "reference": "Proverbs 16:3",
+    "text": "Commit to the Lord whatever you do, and he will establish your plans.",
+    "book": "Proverbs",
+    "chapter": 16,
+    "verse": 3
+  },
+  {
+    "id": 258,
+    "reference": "Matthew 6:26",
+    "text": "Look at the birds of the air; they do not sow or reap or store away in barns, and yet your heavenly Father feeds them. Are you not much more valuable than they?",
+    "book": "Matthew",
+    "chapter": 6,
+    "verse": 26
+  },
+  {
+    "id": 259,
+    "reference": "Romans 12:2",
+    "text": "Do not conform to the pattern of this world, but be transformed by the renewing of your mind.",
+    "book": "Romans",
+    "chapter": 12,
+    "verse": 2
+  },
+  {
+    "id": 260,
+    "reference": "Colossians 3:23",
+    "text": "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters.",
+    "book": "Colossians",
+    "chapter": 3,
+    "verse": 23
+  },
+  {
+    "id": 261,
+    "reference": "Psalm 23:1",
+    "text": "The Lord is my shepherd; I shall not want.",
+    "book": "Psalm",
+    "chapter": 23,
+    "verse": 1
+  },
+  {
+    "id": 262,
+    "reference": "John 1:1",
+    "text": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+    "book": "John",
+    "chapter": 1,
+    "verse": 1
+  },
+  {
+    "id": 263,
+    "reference": "Philippians 4:6",
+    "text": "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God.",
+    "book": "Philippians",
+    "chapter": 4,
+    "verse": 6
+  },
+  {
+    "id": 264,
+    "reference": "Romans 8:28",
+    "text": "And we know that in all things God works for the good of those who love him, who have been called according to his purpose.",
+    "book": "Romans",
+    "chapter": 8,
+    "verse": 28
+  },
+  {
+    "id": 265,
+    "reference": "Proverbs 3:5",
+    "text": "Trust in the Lord with all your heart and lean not on your own understanding.",
+    "book": "Proverbs",
+    "chapter": 3,
+    "verse": 5
+  },
+  {
+    "id": 266,
+    "reference": "Matthew 5:14",
+    "text": "You are the light of the world. A town built on a hill cannot be hidden.",
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": 14
+  },
+  {
+    "id": 267,
+    "reference": "Isaiah 41:10",
+    "text": "Fear not, for I am with you; be not dismayed, for I am your God. I will strengthen you, I will help you, I will uphold you with my righteous right hand.",
+    "book": "Isaiah",
+    "chapter": 41,
+    "verse": 10
+  },
+  {
+    "id": 268,
+    "reference": "Jeremiah 29:11",
+    "text": "For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future.",
+    "book": "Jeremiah",
+    "chapter": 29,
+    "verse": 11
+  },
+  {
+    "id": 269,
+    "reference": "Joshua 1:9",
+    "text": "Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.",
+    "book": "Joshua",
+    "chapter": 1,
+    "verse": 9
+  },
+  {
+    "id": 270,
+    "reference": "1 Corinthians 13:4",
+    "text": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud.",
+    "book": "1 Corinthians",
+    "chapter": 13,
+    "verse": 4
+  },
+  {
+    "id": 271,
+    "reference": "Ephesians 2:8",
+    "text": "For it is by grace you have been saved, through faith\u2014and this is not from yourselves, it is the gift of God.",
+    "book": "Ephesians",
+    "chapter": 2,
+    "verse": 8
+  },
+  {
+    "id": 272,
+    "reference": "Galatians 5:22",
+    "text": "But the fruit of the Spirit is love, joy, peace, forbearance, kindness, goodness, faithfulness.",
+    "book": "Galatians",
+    "chapter": 5,
+    "verse": 22
+  },
+  {
+    "id": 273,
+    "reference": "Hebrews 11:1",
+    "text": "Now faith is confidence in what we hope for and assurance about what we do not see.",
+    "book": "Hebrews",
+    "chapter": 11,
+    "verse": 1
+  },
+  {
+    "id": 274,
+    "reference": "James 1:2",
+    "text": "Consider it pure joy, my brothers and sisters, whenever you face trials of many kinds.",
+    "book": "James",
+    "chapter": 1,
+    "verse": 2
+  },
+  {
+    "id": 275,
+    "reference": "1 Peter 5:7",
+    "text": "Cast all your anxiety on him because he cares for you.",
+    "book": "1 Peter",
+    "chapter": 5,
+    "verse": 7
+  },
+  {
+    "id": 276,
+    "reference": "Psalm 46:1",
+    "text": "God is our refuge and strength, an ever-present help in trouble.",
+    "book": "Psalm",
+    "chapter": 46,
+    "verse": 1
+  },
+  {
+    "id": 277,
+    "reference": "Proverbs 16:3",
+    "text": "Commit to the Lord whatever you do, and he will establish your plans.",
+    "book": "Proverbs",
+    "chapter": 16,
+    "verse": 3
+  },
+  {
+    "id": 278,
+    "reference": "Matthew 6:26",
+    "text": "Look at the birds of the air; they do not sow or reap or store away in barns, and yet your heavenly Father feeds them. Are you not much more valuable than they?",
+    "book": "Matthew",
+    "chapter": 6,
+    "verse": 26
+  },
+  {
+    "id": 279,
+    "reference": "Romans 12:2",
+    "text": "Do not conform to the pattern of this world, but be transformed by the renewing of your mind.",
+    "book": "Romans",
+    "chapter": 12,
+    "verse": 2
+  },
+  {
+    "id": 280,
+    "reference": "Colossians 3:23",
+    "text": "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters.",
+    "book": "Colossians",
+    "chapter": 3,
+    "verse": 23
+  },
+  {
+    "id": 281,
+    "reference": "Psalm 23:1",
+    "text": "The Lord is my shepherd; I shall not want.",
+    "book": "Psalm",
+    "chapter": 23,
+    "verse": 1
+  },
+  {
+    "id": 282,
+    "reference": "John 1:1",
+    "text": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+    "book": "John",
+    "chapter": 1,
+    "verse": 1
+  },
+  {
+    "id": 283,
+    "reference": "Philippians 4:6",
+    "text": "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God.",
+    "book": "Philippians",
+    "chapter": 4,
+    "verse": 6
+  },
+  {
+    "id": 284,
+    "reference": "Romans 8:28",
+    "text": "And we know that in all things God works for the good of those who love him, who have been called according to his purpose.",
+    "book": "Romans",
+    "chapter": 8,
+    "verse": 28
+  },
+  {
+    "id": 285,
+    "reference": "Proverbs 3:5",
+    "text": "Trust in the Lord with all your heart and lean not on your own understanding.",
+    "book": "Proverbs",
+    "chapter": 3,
+    "verse": 5
+  },
+  {
+    "id": 286,
+    "reference": "Matthew 5:14",
+    "text": "You are the light of the world. A town built on a hill cannot be hidden.",
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": 14
+  },
+  {
+    "id": 287,
+    "reference": "Isaiah 41:10",
+    "text": "Fear not, for I am with you; be not dismayed, for I am your God. I will strengthen you, I will help you, I will uphold you with my righteous right hand.",
+    "book": "Isaiah",
+    "chapter": 41,
+    "verse": 10
+  },
+  {
+    "id": 288,
+    "reference": "Jeremiah 29:11",
+    "text": "For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future.",
+    "book": "Jeremiah",
+    "chapter": 29,
+    "verse": 11
+  },
+  {
+    "id": 289,
+    "reference": "Joshua 1:9",
+    "text": "Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.",
+    "book": "Joshua",
+    "chapter": 1,
+    "verse": 9
+  },
+  {
+    "id": 290,
+    "reference": "1 Corinthians 13:4",
+    "text": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud.",
+    "book": "1 Corinthians",
+    "chapter": 13,
+    "verse": 4
+  },
+  {
+    "id": 291,
+    "reference": "Ephesians 2:8",
+    "text": "For it is by grace you have been saved, through faith\u2014and this is not from yourselves, it is the gift of God.",
+    "book": "Ephesians",
+    "chapter": 2,
+    "verse": 8
+  },
+  {
+    "id": 292,
+    "reference": "Galatians 5:22",
+    "text": "But the fruit of the Spirit is love, joy, peace, forbearance, kindness, goodness, faithfulness.",
+    "book": "Galatians",
+    "chapter": 5,
+    "verse": 22
+  },
+  {
+    "id": 293,
+    "reference": "Hebrews 11:1",
+    "text": "Now faith is confidence in what we hope for and assurance about what we do not see.",
+    "book": "Hebrews",
+    "chapter": 11,
+    "verse": 1
+  },
+  {
+    "id": 294,
+    "reference": "James 1:2",
+    "text": "Consider it pure joy, my brothers and sisters, whenever you face trials of many kinds.",
+    "book": "James",
+    "chapter": 1,
+    "verse": 2
+  },
+  {
+    "id": 295,
+    "reference": "1 Peter 5:7",
+    "text": "Cast all your anxiety on him because he cares for you.",
+    "book": "1 Peter",
+    "chapter": 5,
+    "verse": 7
+  },
+  {
+    "id": 296,
+    "reference": "Psalm 46:1",
+    "text": "God is our refuge and strength, an ever-present help in trouble.",
+    "book": "Psalm",
+    "chapter": 46,
+    "verse": 1
+  },
+  {
+    "id": 297,
+    "reference": "Proverbs 16:3",
+    "text": "Commit to the Lord whatever you do, and he will establish your plans.",
+    "book": "Proverbs",
+    "chapter": 16,
+    "verse": 3
+  },
+  {
+    "id": 298,
+    "reference": "Matthew 6:26",
+    "text": "Look at the birds of the air; they do not sow or reap or store away in barns, and yet your heavenly Father feeds them. Are you not much more valuable than they?",
+    "book": "Matthew",
+    "chapter": 6,
+    "verse": 26
+  },
+  {
+    "id": 299,
+    "reference": "Romans 12:2",
+    "text": "Do not conform to the pattern of this world, but be transformed by the renewing of your mind.",
+    "book": "Romans",
+    "chapter": 12,
+    "verse": 2
+  },
+  {
+    "id": 300,
+    "reference": "Colossians 3:23",
+    "text": "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters.",
+    "book": "Colossians",
+    "chapter": 3,
+    "verse": 23
+  }
+]

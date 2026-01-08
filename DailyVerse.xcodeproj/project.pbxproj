@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB1001000000000000000100 /* DailyVerseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1002000000000000000200 /* DailyVerseApp.swift */; };
+		BB1001000000000000000101 /* DailyPassage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1002000000000000000201 /* DailyPassage.swift */; };
+		BB1001000000000000000102 /* DailyPassageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1002000000000000000202 /* DailyPassageViewModel.swift */; };
+		BB1001000000000000000103 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1002000000000000000203 /* HomeView.swift */; };
+		BB1001000000000000000104 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1002000000000000000204 /* SettingsView.swift */; };
+		BB1001000000000000000105 /* StreakManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1002000000000000000205 /* StreakManager.swift */; };
+		BB1001000000000000000106 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1002000000000000000206 /* NotificationManager.swift */; };
+		BB1001000000000000000107 /* PassageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1002000000000000000207 /* PassageProvider.swift */; };
+		BB1001000000000000000108 /* ShareImageRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB100200000000000000020D /* ShareImageRenderer.swift */; };
+		BB1001000000000000000109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB1002000000000000000209 /* Assets.xcassets */; };
+		BB100100000000000000010A /* passages.json in Resources */ = {isa = PBXBuildFile; fileRef = BB100200000000000000020A /* passages.json */; };
+		BB100100000000000000010B /* StreakManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB100200000000000000020B /* StreakManagerTests.swift */; };
+		BB100100000000000000010C /* ShareCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB100200000000000000020E /* ShareCardView.swift */; };
+		BB100100000000000000010D /* ReadingEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB100200000000000000020F /* ReadingEvent.swift */; };
+		BB1001000000000000000110 /* ReadingHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1002000000000000000212 /* ReadingHistoryView.swift */; };
+		BB1001000000000000000111 /* ReadingHistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1002000000000000000213 /* ReadingHistoryStore.swift */; };
+		BB1001000000000000000112 /* BibleReferenceParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1002000000000000000214 /* BibleReferenceParser.swift */; };
+		BB1001000000000000000113 /* verses.json in Resources */ = {isa = PBXBuildFile; fileRef = BB1002000000000000000215 /* verses.json */; };
+		BB1001000000000000000114 /* Verse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1002000000000000000216 /* Verse.swift */; };
+		BB1001000000000000000115 /* VerseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1002000000000000000217 /* VerseRepository.swift */; };
+		BB1001000000000000000116 /* DailyVerseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1002000000000000000218 /* DailyVerseProvider.swift */; };
+		BB1001000000000000000117 /* VerseRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1002000000000000000219 /* VerseRepositoryTests.swift */; };
+		BB1001000000000000000118 /* DailyVerseProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB100200000000000000021A /* DailyVerseProviderTests.swift */; };
+		BB1001000000000000000119 /* BibleReferenceParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB100200000000000000021B /* BibleReferenceParserTests.swift */; };
+		BB100100000000000000011A /* ReadingHistoryStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB100200000000000000021C /* ReadingHistoryStoreTests.swift */; };
+		BB100100000000000000011B /* FavoriteStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB100200000000000000021D /* FavoriteStore.swift */; };
+		BB100100000000000000011C /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB100200000000000000021E /* FavoritesView.swift */; };
+		BB100100000000000000011D /* AppActionsMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB100200000000000000021F /* AppActionsMenuView.swift */; };
+		BB100100000000000000011E /* VerseSelectionShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1002000000000000000220 /* VerseSelectionShareView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB1004000000000000000400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB1000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB1005000000000000000500;
+			remoteInfo = DailyVerse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB1002000000000000000200 /* DailyVerseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyVerseApp.swift; sourceTree = "<group>"; };
+		BB1002000000000000000201 /* DailyPassage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPassage.swift; sourceTree = "<group>"; };
+		BB1002000000000000000202 /* DailyPassageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPassageViewModel.swift; sourceTree = "<group>"; };
+		BB1002000000000000000203 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BB1002000000000000000204 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BB1002000000000000000205 /* StreakManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakManager.swift; sourceTree = "<group>"; };
+		BB1002000000000000000206 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		BB1002000000000000000207 /* PassageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassageProvider.swift; sourceTree = "<group>"; };
+		BB1002000000000000000209 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB100200000000000000020A /* passages.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = passages.json; sourceTree = "<group>"; };
+		BB100200000000000000020B /* StreakManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakManagerTests.swift; sourceTree = "<group>"; };
+		BB100200000000000000020C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB100200000000000000020D /* ShareImageRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareImageRenderer.swift; sourceTree = "<group>"; };
+		BB100200000000000000020E /* ShareCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCardView.swift; sourceTree = "<group>"; };
+		BB100200000000000000020F /* ReadingEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingEvent.swift; sourceTree = "<group>"; };
+		BB1002000000000000000210 /* DailyVerse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyVerse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1002000000000000000211 /* DailyVerseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyVerseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1002000000000000000212 /* ReadingHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingHistoryView.swift; sourceTree = "<group>"; };
+		BB1002000000000000000213 /* ReadingHistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingHistoryStore.swift; sourceTree = "<group>"; };
+		BB1002000000000000000214 /* BibleReferenceParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleReferenceParser.swift; sourceTree = "<group>"; };
+		BB1002000000000000000215 /* verses.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = verses.json; sourceTree = "<group>"; };
+		BB1002000000000000000216 /* Verse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verse.swift; sourceTree = "<group>"; };
+		BB1002000000000000000217 /* VerseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseRepository.swift; sourceTree = "<group>"; };
+		BB1002000000000000000218 /* DailyVerseProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyVerseProvider.swift; sourceTree = "<group>"; };
+		BB1002000000000000000219 /* VerseRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseRepositoryTests.swift; sourceTree = "<group>"; };
+		BB100200000000000000021A /* DailyVerseProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyVerseProviderTests.swift; sourceTree = "<group>"; };
+		BB100200000000000000021B /* BibleReferenceParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleReferenceParserTests.swift; sourceTree = "<group>"; };
+		BB100200000000000000021C /* ReadingHistoryStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingHistoryStoreTests.swift; sourceTree = "<group>"; };
+		BB100200000000000000021D /* FavoriteStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteStore.swift; sourceTree = "<group>"; };
+		BB100200000000000000021E /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		BB100200000000000000021F /* AppActionsMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppActionsMenuView.swift; sourceTree = "<group>"; };
+		BB1002000000000000000220 /* VerseSelectionShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseSelectionShareView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB1006000000000000000600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1006000000000000000601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB1003000000000000000300 = {
+			isa = PBXGroup;
+			children = (
+				BB1003000000000000000301 /* DailyVerse */,
+				BB1003000000000000000306 /* DailyVerseTests */,
+				BB1003000000000000000302 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB1003000000000000000301 /* DailyVerse */ = {
+			isa = PBXGroup;
+			children = (
+				BB1002000000000000000200 /* DailyVerseApp.swift */,
+				BB1003000000000000000310 /* Models */,
+				BB1003000000000000000311 /* ViewModels */,
+				BB1003000000000000000312 /* Views */,
+				BB1003000000000000000313 /* Managers */,
+				BB1003000000000000000314 /* Providers */,
+				BB1003000000000000000315 /* Utilities */,
+				BB1003000000000000000316 /* Resources */,
+				BB100200000000000000020C /* Info.plist */,
+			);
+			path = DailyVerse;
+			sourceTree = "<group>";
+		};
+		BB1003000000000000000302 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB1002000000000000000210 /* DailyVerse.app */,
+				BB1002000000000000000211 /* DailyVerseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB1003000000000000000306 /* DailyVerseTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB100200000000000000020B /* StreakManagerTests.swift */,
+				BB1002000000000000000219 /* VerseRepositoryTests.swift */,
+				BB100200000000000000021A /* DailyVerseProviderTests.swift */,
+				BB100200000000000000021B /* BibleReferenceParserTests.swift */,
+				BB100200000000000000021C /* ReadingHistoryStoreTests.swift */,
+			);
+			path = DailyVerseTests;
+			sourceTree = "<group>";
+		};
+		BB1003000000000000000310 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB1002000000000000000201 /* DailyPassage.swift */,
+				BB100200000000000000020F /* ReadingEvent.swift */,
+				BB1002000000000000000216 /* Verse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BB1003000000000000000311 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BB1002000000000000000202 /* DailyPassageViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BB1003000000000000000312 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB1002000000000000000203 /* HomeView.swift */,
+				BB1002000000000000000204 /* SettingsView.swift */,
+				BB100200000000000000020E /* ShareCardView.swift */,
+				BB1002000000000000000212 /* ReadingHistoryView.swift */,
+				BB100200000000000000021E /* FavoritesView.swift */,
+				BB100200000000000000021F /* AppActionsMenuView.swift */,
+				BB1002000000000000000220 /* VerseSelectionShareView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB1003000000000000000313 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				BB1002000000000000000205 /* StreakManager.swift */,
+				BB1002000000000000000206 /* NotificationManager.swift */,
+				BB1002000000000000000213 /* ReadingHistoryStore.swift */,
+				BB100200000000000000021D /* FavoriteStore.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		BB1003000000000000000314 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				BB1002000000000000000207 /* PassageProvider.swift */,
+				BB1002000000000000000217 /* VerseRepository.swift */,
+				BB1002000000000000000218 /* DailyVerseProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		BB1003000000000000000315 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BB100200000000000000020D /* ShareImageRenderer.swift */,
+				BB1002000000000000000214 /* BibleReferenceParser.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BB1003000000000000000316 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BB1002000000000000000209 /* Assets.xcassets */,
+				BB100200000000000000020A /* passages.json */,
+				BB1002000000000000000215 /* verses.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB1005000000000000000500 /* DailyVerse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB1007000000000000000700 /* Build configuration list for PBXNativeTarget "DailyVerse" */;
+			buildPhases = (
+				BB1006000000000000000602 /* Sources */,
+				BB1006000000000000000600 /* Frameworks */,
+				BB1006000000000000000603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DailyVerse;
+			productName = DailyVerse;
+			productReference = BB1002000000000000000210 /* DailyVerse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB1005000000000000000501 /* DailyVerseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB1007000000000000000701 /* Build configuration list for PBXNativeTarget "DailyVerseTests" */;
+			buildPhases = (
+				BB1006000000000000000604 /* Sources */,
+				BB1006000000000000000601 /* Frameworks */,
+				BB1006000000000000000605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB1005000000000000000502 /* PBXTargetDependency */,
+			);
+			name = DailyVerseTests;
+			productName = DailyVerseTests;
+			productReference = BB1002000000000000000211 /* DailyVerseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB1000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					BB1005000000000000000500 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					BB1005000000000000000501 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = BB1005000000000000000500;
+					};
+				};
+			};
+			buildConfigurationList = BB1007000000000000000702 /* Build configuration list for PBXProject "DailyVerse" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB1003000000000000000300;
+			productRefGroup = BB1003000000000000000302 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB1005000000000000000500 /* DailyVerse */,
+				BB1005000000000000000501 /* DailyVerseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB1006000000000000000603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1001000000000000000109 /* Assets.xcassets in Resources */,
+				BB100100000000000000010A /* passages.json in Resources */,
+				BB1001000000000000000113 /* verses.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1006000000000000000605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB1006000000000000000602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1001000000000000000100 /* DailyVerseApp.swift in Sources */,
+				BB1001000000000000000101 /* DailyPassage.swift in Sources */,
+				BB1001000000000000000102 /* DailyPassageViewModel.swift in Sources */,
+				BB1001000000000000000103 /* HomeView.swift in Sources */,
+				BB1001000000000000000104 /* SettingsView.swift in Sources */,
+				BB1001000000000000000105 /* StreakManager.swift in Sources */,
+				BB1001000000000000000106 /* NotificationManager.swift in Sources */,
+				BB1001000000000000000107 /* PassageProvider.swift in Sources */,
+				BB1001000000000000000108 /* ShareImageRenderer.swift in Sources */,
+				BB100100000000000000010C /* ShareCardView.swift in Sources */,
+				BB100100000000000000010D /* ReadingEvent.swift in Sources */,
+				BB1001000000000000000111 /* ReadingHistoryStore.swift in Sources */,
+				BB1001000000000000000112 /* BibleReferenceParser.swift in Sources */,
+				BB1001000000000000000114 /* Verse.swift in Sources */,
+				BB1001000000000000000115 /* VerseRepository.swift in Sources */,
+				BB1001000000000000000116 /* DailyVerseProvider.swift in Sources */,
+				BB100100000000000000011B /* FavoriteStore.swift in Sources */,
+				BB100100000000000000011C /* FavoritesView.swift in Sources */,
+				BB100100000000000000011D /* AppActionsMenuView.swift in Sources */,
+				BB100100000000000000011E /* VerseSelectionShareView.swift in Sources */,
+				BB1001000000000000000110 /* ReadingHistoryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1006000000000000000604 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB100100000000000000010B /* StreakManagerTests.swift in Sources */,
+				BB1001000000000000000117 /* VerseRepositoryTests.swift in Sources */,
+				BB1001000000000000000118 /* DailyVerseProviderTests.swift in Sources */,
+				BB1001000000000000000119 /* BibleReferenceParserTests.swift in Sources */,
+				BB100100000000000000011A /* ReadingHistoryStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB1005000000000000000502 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB1005000000000000000500 /* DailyVerse */;
+			targetProxy = BB1004000000000000000400 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BB1007000000000000000703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+			};
+			name = Debug;
+		};
+		BB1007000000000000000704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BB1007000000000000000705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 435S4NNZXS;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DailyVerse/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DailyVerse;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -enable-testing";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dailyverse.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BB1007000000000000000706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 435S4NNZXS;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DailyVerse/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DailyVerse;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dailyverse.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BB1007000000000000000707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dailyverse.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyVerse.app/DailyVerse";
+			};
+			name = Debug;
+		};
+		BB1007000000000000000708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dailyverse.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyVerse.app/DailyVerse";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB1007000000000000000700 /* Build configuration list for PBXNativeTarget "DailyVerse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1007000000000000000705 /* Debug */,
+				BB1007000000000000000706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BB1007000000000000000701 /* Build configuration list for PBXNativeTarget "DailyVerseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1007000000000000000707 /* Debug */,
+				BB1007000000000000000708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BB1007000000000000000702 /* Build configuration list for PBXProject "DailyVerse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1007000000000000000703 /* Debug */,
+				BB1007000000000000000704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB1000000000000000000001 /* Project object */;
+}
