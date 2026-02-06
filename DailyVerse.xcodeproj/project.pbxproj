@@ -37,6 +37,8 @@
 		BB100100000000000000011D /* AppActionsMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB100200000000000000021F /* AppActionsMenuView.swift */; };
 		BB100100000000000000011E /* VerseSelectionShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1002000000000000000220 /* VerseSelectionShareView.swift */; };
 		BB100100000000000000011F /* ReadingTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1002000000000000000221 /* ReadingTheme.swift */; };
+		C95C41312F3650EE00BA5274 /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95C41302F3650EE00BA5274 /* StoreManager.swift */; };
+		C95C41332F3655C200BA5274 /* PremiumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95C41322F3655C200BA5274 /* PremiumView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +86,8 @@
 		BB1002000000000000000220 /* VerseSelectionShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseSelectionShareView.swift; sourceTree = "<group>"; };
 		BB1002000000000000000221 /* ReadingTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingTheme.swift; sourceTree = "<group>"; };
 		C95C407A2F16E87D00BA5274 /* DailyVerseRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DailyVerseRelease.entitlements; sourceTree = "<group>"; };
+		C95C41302F3650EE00BA5274 /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
+		C95C41322F3655C200BA5274 /* PremiumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -121,6 +125,8 @@
 		BB1003000000000000000301 /* DailyVerse */ = {
 			isa = PBXGroup;
 			children = (
+				C95C41322F3655C200BA5274 /* PremiumView.swift */,
+				C95C41302F3650EE00BA5274 /* StoreManager.swift */,
 				C95C407A2F16E87D00BA5274 /* DailyVerseRelease.entitlements */,
 				BB1002000000000000000200 /* DailyVerseApp.swift */,
 				BB1003000000000000000310 /* Models */,
@@ -331,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB1001000000000000000100 /* DailyVerseApp.swift in Sources */,
+				C95C41312F3650EE00BA5274 /* StoreManager.swift in Sources */,
 				BB1001000000000000000101 /* DailyPassage.swift in Sources */,
 				BB1001000000000000000102 /* DailyPassageViewModel.swift in Sources */,
 				BB1001000000000000000103 /* HomeView.swift in Sources */,
@@ -343,6 +350,7 @@
 				BB100100000000000000010D /* ReadingEvent.swift in Sources */,
 				BB1001000000000000000111 /* ReadingHistoryStore.swift in Sources */,
 				BB1001000000000000000112 /* BibleReferenceParser.swift in Sources */,
+				C95C41332F3655C200BA5274 /* PremiumView.swift in Sources */,
 				BB100100000000000000011F /* ReadingTheme.swift in Sources */,
 				BB1001000000000000000114 /* Verse.swift in Sources */,
 				BB1001000000000000000115 /* VerseRepository.swift in Sources */,
