@@ -1,17 +1,23 @@
 #!/bin/bash
-# Build and launch Daily Verse Reading in the iOS Simulator
-
 set -e
 
-cd "$(dirname "$0")"
+echo "📥 Fetching latest code..."
+git fetch origin
+git reset --hard origin/main
 
-SCHEME="Daily Verse Reading"
-# Use iPhone 16 Pro if available, otherwise first available iPhone simulator
-DESTINATION="platform=iOS Simulator,name=iPhone 16 Pro,OS=latest"
-
-echo "Building and launching $SCHEME on simulator..."
-xcodebuild \
-  -scheme "$SCHEME" \
-  -destination "$DESTINATION" \
+echo "🔨 Building for simulator..."
+xcodebuild -project DailyVerse.xcodeproj \
+  -scheme DailyVerse \
+  -destination 'platform=iOS Simulator,name=iPhone 15 Pro' \
   -configuration Debug \
-  run
+  build
+
+echo "📱 Starting simulator..."
+open -a Simulator
+
+echo "🚀 Installing and launching app..."
+xcrun simctl boot "iPhone 15 Pro" 2>/dev/null || true
+xcrun simctl install "iPhone 15 Pro" ~/Library/Developer/Xcode/DerivedData/DailyVerse-*/Build/Products/Debug-iphonesimulator/DailyVerse.app
+xcrun simctl launch "iPhone 15 Pro" com.luknarz.dailyverse
+
+echo "✅ Done! App running on simulator."
