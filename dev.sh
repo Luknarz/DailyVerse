@@ -1,8 +1,9 @@
 #!/bin/bash
 set -e
 
-echo "📥 Pulling latest code..."
-git pull origin main
+echo "📥 Fetching latest code..."
+git fetch origin
+git reset --hard origin/main
 
 echo "🔨 Building for simulator..."
 xcodebuild -project DailyVerse.xcodeproj \
