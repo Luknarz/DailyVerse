@@ -6,9 +6,14 @@ struct HomeView: View {
     @EnvironmentObject private var notificationManager: NotificationManager
     @EnvironmentObject private var readingHistory: ReadingHistoryStore
     @EnvironmentObject private var favoriteStore: FavoriteStore
+    @EnvironmentObject private var storeManager: StoreManager
     @State private var showingAppMenu = false
     @State private var showingVerseSelection = false
+    @State private var showingPremiumView = false
+    @State private var showingFavoriteLimitAlert = false
     @AppStorage("readingMode") private var readingMode = "default"
+    @AppStorage("extraVersesToday") private var extraVersesToday = 0
+    @AppStorage("lastExtraVerseDate") private var lastExtraVerseDate = ""
 
     private var theme: ReadingTheme {
         ReadingTheme.from(rawValue: readingMode)
@@ -56,13 +61,40 @@ struct HomeView: View {
             .sheet(isPresented: $showingVerseSelection) {
                 VerseSelectionShareView(verses: viewModel.todaysVerses, viewModel: viewModel)
             }
+            .sheet(isPresented: $showingPremiumView) {
+                PremiumView()
+            }
+            .alert("Favorite Limit Reached", isPresented: $showingFavoriteLimitAlert) {
+                Button("Upgrade to Premium") {
+                    showingPremiumView = true
+                }
+                Button("Cancel", role: .cancel) { }
+            } message: {
+                Text("Free users can save up to \(FavoriteStore.freeTierLimit) favorites. Upgrade to Premium for unlimited favorites!")
+            }
         }
         .background(theme.background.ignoresSafeArea())
         .preferredColorScheme(theme.colorScheme)
         .tint(theme.accent)
         .onAppear {
             viewModel.loadToday()
+            resetExtraVersesIfNewDay()
         }
+    }
+    
+    /// Reset extra verse counter if it's a new day
+    private func resetExtraVersesIfNewDay() {
+        let today = ISO8601DateFormatter().string(from: Date()).prefix(10)
+        if lastExtraVerseDate != String(today) {
+            extraVersesToday = 0
+            lastExtraVerseDate = String(today)
+        }
+    }
+    
+    /// Check if user can read another verse
+    private var canReadAnotherVerse: Bool {
+        if storeManager.isPremium { return true }
+        return extraVersesToday < 1 // Free users get 1 extra verse per day
     }
 
     private func passageSection(proxy: ScrollViewProxy) -> some View {
@@ -178,8 +210,15 @@ struct HomeView: View {
             }
             
             Button(action: { handleReadAnotherVerse(proxy: proxy) }) {
-                Label("Read another verse", systemImage: "plus.circle")
-                    .frame(maxWidth: .infinity)
+                HStack {
+                    Label("Read another verse", systemImage: "plus.circle")
+                    if !storeManager.isPremium && !canReadAnotherVerse {
+                        Image(systemName: "crown.fill")
+                            .foregroundStyle(.yellow)
+                            .font(.caption)
+                    }
+                }
+                .frame(maxWidth: .infinity)
             }
             .buttonStyle(.bordered)
             .padding(.vertical, 4)
@@ -203,8 +242,19 @@ struct HomeView: View {
     }
     
     private func handleReadAnotherVerse(proxy: ScrollViewProxy) {
+        // Check if user can read another verse
+        if !canReadAnotherVerse {
+            showingPremiumView = true
+            return
+        }
+        
         let previousCount = viewModel.todaysVerses.count
         viewModel.fetchAdditionalVerseForToday()
+        
+        // Track extra verses for free users
+        if !storeManager.isPremium {
+            extraVersesToday += 1
+        }
         
         // Auto-scroll to the newly added verse after a brief delay to allow animation
         if let lastVerse = viewModel.todaysVerses.last, viewModel.todaysVerses.count > previousCount {
@@ -258,6 +308,9 @@ struct HomeView: View {
     }
     
     private func handleToggleFavorite(_ verse: Verse) {
-        favoriteStore.toggleFavorite(verse)
+        let success = favoriteStore.toggleFavorite(verse, isPremium: storeManager.isPremium)
+        if !success {
+            showingFavoriteLimitAlert = true
+        }
     }
 }

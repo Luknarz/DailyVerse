@@ -3,11 +3,13 @@ import SwiftUI
 struct AppActionsMenuView: View {
     @ObservedObject var viewModel: DailyPassageViewModel
     @EnvironmentObject private var notificationManager: NotificationManager
+    @EnvironmentObject private var storeManager: StoreManager
     @Environment(\.dismiss) private var dismiss
     
     @State private var showingSettings = false
     @State private var showingAbout = false
     @State private var showingDebugMenu = false
+    @State private var showingPremiumView = false
     @AppStorage("readingMode") private var readingMode = "default"
     
     private var theme: ReadingTheme {
@@ -17,6 +19,35 @@ struct AppActionsMenuView: View {
     var body: some View {
         NavigationStack {
             List {
+                // Premium section
+                if !storeManager.isPremium {
+                    Section {
+                        Button(action: { showingPremiumView = true }) {
+                            Label {
+                                HStack {
+                                    Text("Upgrade to Premium")
+                                    Spacer()
+                                    Image(systemName: "crown.fill")
+                                        .foregroundStyle(.yellow)
+                                }
+                            } icon: {
+                                Image(systemName: "star.fill")
+                                    .foregroundStyle(.yellow)
+                            }
+                        }
+                    }
+                } else {
+                    Section {
+                        Label {
+                            Text("Premium Active")
+                                .foregroundStyle(.secondary)
+                        } icon: {
+                            Image(systemName: "checkmark.seal.fill")
+                                .foregroundStyle(.green)
+                        }
+                    }
+                }
+                
                 Section {
                     Button(action: { showingSettings = true }) {
                         Label("App Settings", systemImage: "gearshape")
@@ -65,6 +96,9 @@ struct AppActionsMenuView: View {
             .sheet(isPresented: $showingAbout) {
                 AboutView()
             }
+            .sheet(isPresented: $showingPremiumView) {
+                PremiumView()
+            }
             #if DEBUG
             .sheet(isPresented: $showingDebugMenu) {
                 DebugMenuView(viewModel: viewModel)
@@ -92,9 +126,11 @@ struct AppActionsMenuView: View {
 struct AppSettingsView: View {
     @ObservedObject var viewModel: DailyPassageViewModel
     @EnvironmentObject private var notificationManager: NotificationManager
+    @EnvironmentObject private var storeManager: StoreManager
     @Environment(\.dismiss) private var dismiss
     @AppStorage("readingMode") private var readingMode: String = "default"
     @State private var reminderTime: Date = Date()
+    @State private var showingPremiumView = false
     
     private var theme: ReadingTheme {
         ReadingTheme.from(rawValue: readingMode)
@@ -106,8 +142,32 @@ struct AppSettingsView: View {
                 Section(header: Text("Display")) {
                     Picker("Reading Mode", selection: $readingMode) {
                         Text("Default").tag("default")
-                        Text("Night Mode").tag("night")
-                        Text("Sepia").tag("sepia")
+                        
+                        // Premium themes
+                        HStack {
+                            Text("Night Mode")
+                            if !storeManager.isPremium {
+                                Image(systemName: "crown.fill")
+                                    .foregroundStyle(.yellow)
+                                    .font(.caption)
+                            }
+                        }.tag("night")
+                        
+                        HStack {
+                            Text("Sepia")
+                            if !storeManager.isPremium {
+                                Image(systemName: "crown.fill")
+                                    .foregroundStyle(.yellow)
+                                    .font(.caption)
+                            }
+                        }.tag("sepia")
+                    }
+                    .onChange(of: readingMode) { _, newValue in
+                        // Reset to default if user selects premium theme without premium
+                        if !storeManager.isPremium && (newValue == "night" || newValue == "sepia") {
+                            readingMode = "default"
+                            showingPremiumView = true
+                        }
                     }
                 }
                 
@@ -144,6 +204,9 @@ struct AppSettingsView: View {
             .background(theme.background)
             .onAppear {
                 reminderTime = notificationManager.reminderDate()
+            }
+            .sheet(isPresented: $showingPremiumView) {
+                PremiumView()
             }
         }
         .background(theme.background.ignoresSafeArea())

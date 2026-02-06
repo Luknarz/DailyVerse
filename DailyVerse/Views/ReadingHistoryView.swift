@@ -3,8 +3,10 @@ import SwiftUI
 struct ReadingHistoryView: View {
     @EnvironmentObject private var history: ReadingHistoryStore
     @EnvironmentObject private var favoriteStore: FavoriteStore
+    @EnvironmentObject private var storeManager: StoreManager
     @State private var selectedDate: Date?
     @State private var selectedDateEvents: [ReadingEvent] = []
+    @State private var showingPremiumView = false
     @AppStorage("readingMode") private var readingMode = "default"
     
     private let calendar = Calendar.current
@@ -80,6 +82,72 @@ struct ReadingHistoryView: View {
     }
     
     var body: some View {
+        Group {
+            if storeManager.isPremium {
+                readingHistoryContent
+            } else {
+                premiumLockedContent
+            }
+        }
+        .navigationTitle("Reading History")
+        .navigationBarTitleDisplayMode(.large)
+        .background(theme.background)
+        .preferredColorScheme(theme.colorScheme)
+        .tint(theme.accent)
+        .sheet(isPresented: $showingPremiumView) {
+            PremiumView()
+        }
+        .sheet(item: Binding(
+            get: { selectedDate.map { ReadingDateDetail(date: $0) } },
+            set: { _ in 
+                selectedDate = nil
+                selectedDateEvents = []
+            }
+        )) { detail in
+            ReadingDateDetailView(date: detail.date, events: selectedDateEvents)
+                .environmentObject(favoriteStore)
+                .environmentObject(storeManager)
+        }
+    }
+    
+    // MARK: - Premium Locked Content
+    
+    private var premiumLockedContent: some View {
+        VStack(spacing: 24) {
+            Spacer()
+            
+            Image(systemName: "lock.fill")
+                .font(.system(size: 60))
+                .foregroundStyle(.secondary)
+            
+            Text("Reading History is a Premium Feature")
+                .font(.title2.bold())
+                .multilineTextAlignment(.center)
+            
+            Text("Track all your daily readings with a beautiful calendar view. See when you read and build your streak!")
+                .font(.body)
+                .foregroundStyle(.secondary)
+                .multilineTextAlignment(.center)
+                .padding(.horizontal)
+            
+            Button(action: { showingPremiumView = true }) {
+                Label("Unlock Premium", systemImage: "crown.fill")
+                    .font(.headline)
+                    .padding(.horizontal, 32)
+                    .padding(.vertical, 12)
+                    .background(theme.accent)
+                    .foregroundColor(.white)
+                    .clipShape(Capsule())
+            }
+            
+            Spacer()
+        }
+        .padding()
+    }
+    
+    // MARK: - Reading History Content
+    
+    private var readingHistoryContent: some View {
         ScrollView {
             VStack(spacing: 20) {
                 // Month/Year Header
@@ -131,21 +199,6 @@ struct ReadingHistoryView: View {
                 }
             }
             .padding(.vertical)
-        }
-        .navigationTitle("Reading History")
-        .navigationBarTitleDisplayMode(.large)
-        .background(theme.background)
-        .preferredColorScheme(theme.colorScheme)
-        .tint(theme.accent)
-        .sheet(item: Binding(
-            get: { selectedDate.map { ReadingDateDetail(date: $0) } },
-            set: { _ in 
-                selectedDate = nil
-                selectedDateEvents = []
-            }
-        )) { detail in
-            ReadingDateDetailView(date: detail.date, events: selectedDateEvents)
-                .environmentObject(favoriteStore)
         }
     }
 }
