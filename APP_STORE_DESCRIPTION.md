@@ -1,7 +1,7 @@
-# DailyVerse - App Store Description & Metadata
+# Daily Verse Reading - App Store Description & Metadata
 
 ## App Name
-**DailyVerse**
+**Daily Verse Reading**
 
 ## Subtitle (Optional - 30 characters max)
 **Daily Bible Reading**
@@ -11,7 +11,7 @@
 ## Description (4000 characters max)
 
 ```
-DailyVerse helps you build a daily Bible reading habit with short, meaningful verses delivered each day. Perfect for anyone seeking spiritual growth, DailyVerse makes it easy to stay connected to God's Word through a simple, beautiful interface.
+Daily Verse Reading helps you build a daily Bible reading habit with short, meaningful verses delivered each day. Perfect for anyone seeking spiritual growth, Daily Verse Reading makes it easy to stay connected to God's Word through a simple, beautiful interface.
 
 KEY FEATURES:
 
@@ -41,7 +41,7 @@ Enjoy a clean, minimal interface designed for focus and reflection. Light, calm 
 
 PRIVACY & SECURITY:
 
-DailyVerse is completely offline. All data—including your reading history, favorites, and streaks—is stored locally on your device. We don't collect, share, or sell any personal information. Your spiritual journey is private and secure.
+Daily Verse Reading is completely offline. All data—including your reading history, favorites, and streaks—is stored locally on your device. We don't collect, share, or sell any personal information. Your spiritual journey is private and secure.
 
 PERFECT FOR:
 
@@ -52,7 +52,7 @@ PERFECT FOR:
 • Tracking your spiritual growth
 • Anyone seeking to deepen their faith
 
-Start your daily habit today and let God's Word guide your journey. Download DailyVerse and begin your path to spiritual growth, one verse at a time.
+Start your daily habit today and let God's Word guide your journey. Download Daily Verse Reading and begin your path to spiritual growth, one verse at a time.
 ```
 
 **Character count: 1,847 / 4,000**
@@ -62,7 +62,7 @@ Start your daily habit today and let God's Word guide your journey. Download Dai
 ## What's New in This Version (4000 characters max)
 
 ```
-Welcome to DailyVerse! The first version includes everything you need to build a daily Bible reading habit:
+Welcome to Daily Verse Reading! The first version includes everything you need to build a daily Bible reading habit:
 
 ✨ Core Features:
 • Daily verse delivery from a curated collection
@@ -105,7 +105,7 @@ bible,verse,daily,devotional,scripture,reading,christian,faith,spiritual,habit,g
 ## Promotional Text (170 characters max - can be updated without resubmission)
 
 ```
-Build a daily Bible reading habit with DailyVerse. New verses each day, streak tracking, and beautiful shareable cards. Start your spiritual journey today!
+Build a daily Bible reading habit with Daily Verse Reading. New verses each day, streak tracking, and beautiful shareable cards. Start your spiritual journey today!
 ```
 
 **Character count: 169 / 170**

@@ -8,6 +8,12 @@ struct VerseSelectionShareView: View {
     
     @State private var selectedVerseIDs: Set<Int> = []
     @State private var shareAsImages = true
+    @State private var shouldDismiss = false
+    @AppStorage("readingMode") private var readingMode = "default"
+    
+    private var theme: ReadingTheme {
+        ReadingTheme.from(rawValue: readingMode)
+    }
     
     var body: some View {
         NavigationStack {
@@ -84,7 +90,17 @@ struct VerseSelectionShareView: View {
                 // Select all verses by default
                 selectedVerseIDs = Set(verses.map { $0.id })
             }
+            .onChange(of: shouldDismiss) { _, newValue in
+                if newValue {
+                    dismiss()
+                }
+            }
+            .scrollContentBackground(.hidden)
+            .background(theme.background)
         }
+        .background(theme.background.ignoresSafeArea())
+        .preferredColorScheme(theme.colorScheme)
+        .tint(theme.accent)
     }
     
     private func selectAll() {
@@ -99,29 +115,66 @@ struct VerseSelectionShareView: View {
         let selectedVerses = verses.filter { selectedVerseIDs.contains($0.id) }
         guard !selectedVerses.isEmpty else { return }
         
+        // Find the topmost view controller to present from (important when inside a sheet)
+        guard let topViewController = findTopViewController() else {
+            return
+        }
+        
         if shareAsImages {
             // Share multiple images
             let images = viewModel.shareMultipleVerses(selectedVerses)
             guard !images.isEmpty else { return }
             
             let controller = UIActivityViewController(activityItems: images, applicationActivities: nil)
-            if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
-               let window = windowScene.windows.first,
-               let root = window.rootViewController {
-                root.present(controller, animated: true)
+            controller.completionWithItemsHandler = { _, _, _, _ in
+                // Dismiss the selection view after sharing is complete
+                DispatchQueue.main.async {
+                    shouldDismiss = true
+                }
             }
+            
+            // Configure for iPad
+            if let popover = controller.popoverPresentationController {
+                popover.sourceView = topViewController.view
+                popover.sourceRect = CGRect(x: topViewController.view.bounds.midX, y: topViewController.view.bounds.midY, width: 0, height: 0)
+                popover.permittedArrowDirections = []
+            }
+            
+            topViewController.present(controller, animated: true)
         } else {
             // Share as combined text
             let text = viewModel.shareMultipleVersesAsText(selectedVerses)
             let controller = UIActivityViewController(activityItems: [text], applicationActivities: nil)
-            if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
-               let window = windowScene.windows.first,
-               let root = window.rootViewController {
-                root.present(controller, animated: true)
+            controller.completionWithItemsHandler = { _, _, _, _ in
+                // Dismiss the selection view after sharing is complete
+                DispatchQueue.main.async {
+                    shouldDismiss = true
+                }
             }
+            
+            // Configure for iPad
+            if let popover = controller.popoverPresentationController {
+                popover.sourceView = topViewController.view
+                popover.sourceRect = CGRect(x: topViewController.view.bounds.midX, y: topViewController.view.bounds.midY, width: 0, height: 0)
+                popover.permittedArrowDirections = []
+            }
+            
+            topViewController.present(controller, animated: true)
+        }
+    }
+    
+    private func findTopViewController() -> UIViewController? {
+        guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
+              let window = windowScene.windows.first else {
+            return nil
         }
         
-        dismiss()
+        var topViewController = window.rootViewController
+        while let presentedViewController = topViewController?.presentedViewController {
+            topViewController = presentedViewController
+        }
+        
+        return topViewController
     }
 }
 

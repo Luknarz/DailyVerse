@@ -1,4 +1,4 @@
-# DailyVerse App Store Submission Guide
+# Daily Verse Reading App Store Submission Guide
 
 ## ✅ Pre-Submission Checklist
 
@@ -38,9 +38,9 @@
 
 #### 1.2 Verify App Configuration in Xcode
 1. Open your project in Xcode
-2. Select the **DailyVerse** target
+2. Select the **DailyVerse** target (display name: Daily Verse Reading)
 3. Go to **General** tab:
-   - ✅ **Display Name**: "DailyVerse" (or your preferred name)
+   - ✅ **Display Name**: "Daily Verse Reading" (or your preferred name)
    - ✅ **Bundle Identifier**: `com.dailyverse.app`
    - ✅ **Version**: `1.0`
    - ✅ **Build**: `1` (increment this for each submission)
@@ -116,13 +116,13 @@ You need screenshots for different iPhone sizes. Minimum required:
 #### 2.4 App Description & Metadata
 Prepare the following text:
 
-**App Name**: "DailyVerse" (must be unique, max 30 characters)
+**App Name**: "Daily Verse Reading" (must be unique, max 30 characters)
 
 **Subtitle** (optional, max 30 characters): e.g., "Daily Bible Reading"
 
 **Description** (max 4000 characters):
 ```
-DailyVerse helps you build a daily Bible reading habit with short, meaningful verses delivered each day.
+Daily Verse Reading helps you build a daily Bible reading habit with short, meaningful verses delivered each day.
 
 KEY FEATURES:
 • Daily Verses: Receive a new verse each day from a curated collection
@@ -134,7 +134,7 @@ KEY FEATURES:
 • Customizable Notifications: Set daily reminders at your preferred time
 
 PRIVACY:
-DailyVerse is completely offline. All data is stored locally on your device. We don't collect, share, or sell any personal information.
+Daily Verse Reading is completely offline. All data is stored locally on your device. We don't collect, share, or sell any personal information.
 
 Start your daily habit today and let God's Word guide your journey.
 ```
@@ -146,7 +146,7 @@ bible,verse,daily,devotional,scripture,reading,christian,faith,spiritual,habit
 
 **Promotional Text** (optional, max 170 characters, can be updated without resubmission):
 ```
-Build a daily Bible reading habit with DailyVerse. New verses each day, streak tracking, and beautiful shareable cards.
+Build a daily Bible reading habit with Daily Verse Reading. New verses each day, streak tracking, and beautiful shareable cards.
 ```
 
 **Support URL** (required):
@@ -177,7 +177,7 @@ Build a daily Bible reading habit with DailyVerse. New verses each day, streak t
 4. Click **Close**
 
 #### 3.2 Increment Build Number
-1. Select the **DailyVerse** target
+1. Select the **DailyVerse** target (display name: Daily Verse Reading)
 2. Go to **General** tab
 3. Increment **Build** number (e.g., from `1` to `2`)
 4. Or in **Info.plist**, change `CFBundleVersion` from `1` to `2`
@@ -228,8 +228,8 @@ In the Organizer:
 
    **Platform**: iOS
    
-   **Name**: "DailyVerse" (must be unique across entire App Store)
-   - If taken, try: "DailyVerse - Bible Reading", "DailyVerse Daily", etc.
+   **Name**: "Daily Verse Reading" (must be unique across entire App Store)
+   - If taken, try: "Daily Verse Reading - Bible Reading", "Daily Verse Reading Daily", etc.
    
    **Primary Language**: English (or your preferred language)
    
@@ -255,7 +255,7 @@ In the Organizer:
    
    **Age Rating**: 
    - Click **Edit** and complete the questionnaire
-   - For DailyVerse: Should be **4+** (no objectionable content)
+   - For Daily Verse Reading: Should be **4+** (no objectionable content)
    - Questions to answer:
      - Unrestricted Web Access: No
      - User Generated Content: No
@@ -279,7 +279,7 @@ In the Organizer:
 
    **What's New in This Version** (required for first version, max 4000 chars):
    ```
-   Welcome to DailyVerse! The first version includes:
+   Welcome to Daily Verse Reading! The first version includes:
    
    • Daily Bible verses delivered each day
    • Streak tracking to build consistency
@@ -472,20 +472,20 @@ Even though your app is fully offline, Apple may require a privacy policy URL. C
 
 **Template:**
 ```
-Privacy Policy for DailyVerse
+Privacy Policy for Daily Verse Reading
 
 Last Updated: [Date]
 
-DailyVerse is committed to your privacy.
+Daily Verse Reading is committed to your privacy.
 
 Data Collection:
-DailyVerse does not collect, store, or transmit any personal information. The app operates entirely offline.
+Daily Verse Reading does not collect, store, or transmit any personal information. The app operates entirely offline.
 
 Local Storage:
 All data (reading history, favorites, streaks) is stored locally on your device using iOS UserDefaults. This data never leaves your device.
 
 Third-Party Services:
-DailyVerse does not use any third-party analytics, advertising, or tracking services.
+Daily Verse Reading does not use any third-party analytics, advertising, or tracking services.
 
 Contact:
 If you have questions about this privacy policy, contact us at [your email].

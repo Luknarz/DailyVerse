@@ -65,7 +65,7 @@ final class DailyPassageViewModel: ObservableObject {
     }
 
     var shareStreakText: String {
-        guard streakCount > 0 else { return "Join my DailyVerse journey!" }
+        guard streakCount > 0 else { return "Join my Daily Verse Reading journey!" }
         return "🔥 \(streakCount)-day streak!"
     }
     
@@ -75,7 +75,7 @@ final class DailyPassageViewModel: ObservableObject {
         return renderShareImage(
             text: verse.text,
             reference: verse.reference,
-            streakText: shareStreakText
+            streakText: nil
         )
     }
     

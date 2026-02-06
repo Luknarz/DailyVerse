@@ -21,9 +21,11 @@ final class NotificationManager: NSObject, ObservableObject {
 
     func requestAuthorization() {
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) { granted, error in
+            #if DEBUG
             if let error = error {
                 print("Notification authorization error: \(error)")
             }
+            #endif
             if granted {
                 DispatchQueue.main.async {
                     self.scheduleDailyNotification(at: self.timeComponents)
@@ -50,7 +52,7 @@ final class NotificationManager: NSObject, ObservableObject {
         triggerComponents.minute = components.minute ?? 0
 
         let content = UNMutableNotificationContent()
-        content.title = "Daily Verse"
+        content.title = "Daily Verse Reading"
         content.body = "Take a moment to read today’s verse."
         content.sound = .default
 
@@ -58,9 +60,11 @@ final class NotificationManager: NSObject, ObservableObject {
         let request = UNNotificationRequest(identifier: "dailyVerseReminder", content: content, trigger: trigger)
 
         center.add(request) { error in
+            #if DEBUG
             if let error = error {
                 print("Failed to schedule notification: \(error)")
             }
+            #endif
         }
     }
 

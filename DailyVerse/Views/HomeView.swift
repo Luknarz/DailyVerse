@@ -8,6 +8,11 @@ struct HomeView: View {
     @EnvironmentObject private var favoriteStore: FavoriteStore
     @State private var showingAppMenu = false
     @State private var showingVerseSelection = false
+    @AppStorage("readingMode") private var readingMode = "default"
+
+    private var theme: ReadingTheme {
+        ReadingTheme.from(rawValue: readingMode)
+    }
 
     var body: some View {
         NavigationStack {
@@ -21,8 +26,9 @@ struct HomeView: View {
                     .padding(24)
                 }
                 .animation(.easeInOut, value: viewModel.todaysVerses.count)
+                .background(theme.background)
             }
-            .navigationTitle("DailyVerse")
+            .navigationTitle("Daily Verse Reading")
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
                     Button(action: { showingAppMenu = true }) {
@@ -51,6 +57,9 @@ struct HomeView: View {
                 VerseSelectionShareView(verses: viewModel.todaysVerses, viewModel: viewModel)
             }
         }
+        .background(theme.background.ignoresSafeArea())
+        .preferredColorScheme(theme.colorScheme)
+        .tint(theme.accent)
         .onAppear {
             viewModel.loadToday()
         }
@@ -130,7 +139,7 @@ struct HomeView: View {
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding()
-        .background(.thinMaterial)
+        .background(theme.surface)
         .clipShape(RoundedRectangle(cornerRadius: 16))
     }
 

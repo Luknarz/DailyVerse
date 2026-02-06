@@ -3,6 +3,11 @@ import SwiftUI
 struct FavoritesView: View {
     @EnvironmentObject private var favoriteStore: FavoriteStore
     private let verseRepository = VerseRepository()
+    @AppStorage("readingMode") private var readingMode = "default"
+
+    private var theme: ReadingTheme {
+        ReadingTheme.from(rawValue: readingMode)
+    }
     
     private var favoriteVerses: [Verse] {
         favoriteStore.favoriteIDs.compactMap { id in
@@ -56,7 +61,11 @@ struct FavoritesView: View {
             }
             .navigationTitle("Favorites")
             .navigationBarTitleDisplayMode(.large)
+            .background(theme.background)
         }
+        .background(theme.background.ignoresSafeArea())
+        .preferredColorScheme(theme.colorScheme)
+        .tint(theme.accent)
     }
 }
 

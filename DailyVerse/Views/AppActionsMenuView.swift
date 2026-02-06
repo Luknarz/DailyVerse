@@ -8,6 +8,11 @@ struct AppActionsMenuView: View {
     @State private var showingSettings = false
     @State private var showingAbout = false
     @State private var showingDebugMenu = false
+    @AppStorage("readingMode") private var readingMode = "default"
+    
+    private var theme: ReadingTheme {
+        ReadingTheme.from(rawValue: readingMode)
+    }
     
     var body: some View {
         NavigationStack {
@@ -51,6 +56,8 @@ struct AppActionsMenuView: View {
                     }
                 }
             }
+            .scrollContentBackground(.hidden)
+            .background(theme.background)
             .sheet(isPresented: $showingSettings) {
                 AppSettingsView(viewModel: viewModel)
                     .environmentObject(notificationManager)
@@ -64,6 +71,9 @@ struct AppActionsMenuView: View {
             }
             #endif
         }
+        .background(theme.background.ignoresSafeArea())
+        .preferredColorScheme(theme.colorScheme)
+        .tint(theme.accent)
     }
     
     private func handleRedownloadBible() {
@@ -85,6 +95,10 @@ struct AppSettingsView: View {
     @Environment(\.dismiss) private var dismiss
     @AppStorage("readingMode") private var readingMode: String = "default"
     @State private var reminderTime: Date = Date()
+    
+    private var theme: ReadingTheme {
+        ReadingTheme.from(rawValue: readingMode)
+    }
     
     var body: some View {
         NavigationStack {
@@ -126,10 +140,15 @@ struct AppSettingsView: View {
                     }
                 }
             }
+            .scrollContentBackground(.hidden)
+            .background(theme.background)
             .onAppear {
                 reminderTime = notificationManager.reminderDate()
             }
         }
+        .background(theme.background.ignoresSafeArea())
+        .preferredColorScheme(theme.colorScheme)
+        .tint(theme.accent)
     }
 }
 
@@ -137,13 +156,18 @@ struct AppSettingsView: View {
 
 struct AboutView: View {
     @Environment(\.dismiss) private var dismiss
+    @AppStorage("readingMode") private var readingMode = "default"
+    
+    private var theme: ReadingTheme {
+        ReadingTheme.from(rawValue: readingMode)
+    }
     
     var body: some View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 20) {
                     VStack(alignment: .center, spacing: 8) {
-                        Text("DailyVerse")
+                        Text("Daily Verse Reading")
                             .font(.largeTitle.weight(.bold))
                         Text("Version 1.0.0")
                             .font(.subheadline)
@@ -152,7 +176,7 @@ struct AboutView: View {
                     .frame(maxWidth: .infinity)
                     .padding(.top)
                     
-                    Text("DailyVerse helps you build a daily Scripture reading habit. Passages are stored offline and rotate each day. Notifications are optional and configurable.")
+                    Text("Daily Verse Reading helps you build a daily Scripture reading habit. Passages are stored offline and rotate each day. Notifications are optional and configurable.")
                         .font(.body)
                         .padding(.horizontal)
                     
@@ -176,7 +200,11 @@ struct AboutView: View {
                     }
                 }
             }
+            .background(theme.background)
         }
+        .background(theme.background.ignoresSafeArea())
+        .preferredColorScheme(theme.colorScheme)
+        .tint(theme.accent)
     }
 }
 

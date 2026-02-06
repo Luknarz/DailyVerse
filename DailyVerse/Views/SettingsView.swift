@@ -4,6 +4,11 @@ struct SettingsView: View {
     @ObservedObject var viewModel: DailyPassageViewModel
     @EnvironmentObject private var notificationManager: NotificationManager
     @State private var reminderTime: Date = Date()
+    @AppStorage("readingMode") private var readingMode = "default"
+    
+    private var theme: ReadingTheme {
+        ReadingTheme.from(rawValue: readingMode)
+    }
 
     var body: some View {
         Form {
@@ -27,10 +32,20 @@ struct SettingsView: View {
             }
 
             Section(header: Text("About")) {
-                Text("DailyVerse helps you build a daily Scripture habit. Passages are stored offline and rotate each day. Notifications are optional and configurable.")
+                Text("Daily Verse Reading helps you build a daily Scripture habit. Passages are stored offline and rotate each day. Notifications are optional and configurable.")
+                
+                Link("Privacy Policy", destination: URL(string: "https://luknarz.github.io/dailyverse-support/privacy.html")!)
+                    .foregroundColor(theme.accent)
+                
+                Link("Support", destination: URL(string: "https://luknarz.github.io/dailyverse-support/")!)
+                    .foregroundColor(theme.accent)
             }
         }
         .navigationTitle("Settings")
+        .scrollContentBackground(.hidden)
+        .background(theme.background)
+        .preferredColorScheme(theme.colorScheme)
+        .tint(theme.accent)
         .onAppear {
             reminderTime = notificationManager.reminderDate()
         }

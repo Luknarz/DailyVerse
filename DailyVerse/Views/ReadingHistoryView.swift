@@ -5,9 +5,14 @@ struct ReadingHistoryView: View {
     @EnvironmentObject private var favoriteStore: FavoriteStore
     @State private var selectedDate: Date?
     @State private var selectedDateEvents: [ReadingEvent] = []
+    @AppStorage("readingMode") private var readingMode = "default"
     
     private let calendar = Calendar.current
     private var currentMonth: Date { Date() }
+    
+    private var theme: ReadingTheme {
+        ReadingTheme.from(rawValue: readingMode)
+    }
     
     private var eventsByDate: [String: [ReadingEvent]] {
         Dictionary(grouping: history.events) { event in
@@ -129,6 +134,9 @@ struct ReadingHistoryView: View {
         }
         .navigationTitle("Reading History")
         .navigationBarTitleDisplayMode(.large)
+        .background(theme.background)
+        .preferredColorScheme(theme.colorScheme)
+        .tint(theme.accent)
         .sheet(item: Binding(
             get: { selectedDate.map { ReadingDateDetail(date: $0) } },
             set: { _ in 
@@ -188,9 +196,14 @@ struct ReadingDateDetailView: View {
     
     @Environment(\.dismiss) private var dismiss
     @EnvironmentObject private var favoriteStore: FavoriteStore
+    @AppStorage("readingMode") private var readingMode = "default"
     
     private let calendar = Calendar.current
     private let dailyVerseProvider = DailyVerseProvider()
+    
+    private var theme: ReadingTheme {
+        ReadingTheme.from(rawValue: readingMode)
+    }
     
     private var dateText: String {
         let formatter = DateFormatter()
@@ -274,6 +287,11 @@ struct ReadingDateDetailView: View {
                     }
                 }
             }
+            .scrollContentBackground(.hidden)
+            .background(theme.background)
         }
+        .background(theme.background.ignoresSafeArea())
+        .preferredColorScheme(theme.colorScheme)
+        .tint(theme.accent)
     }
 }
