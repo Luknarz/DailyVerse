@@ -6,6 +6,7 @@ struct DailyVerseApp: App {
     @StateObject private var notificationManager = NotificationManager()
     @StateObject private var readingHistory = ReadingHistoryStore()
     @StateObject private var favoriteStore = FavoriteStore()
+    @StateObject private var storeManager = StoreManager.shared
 
     var body: some Scene {
         WindowGroup {
@@ -13,6 +14,10 @@ struct DailyVerseApp: App {
                 .environmentObject(notificationManager)
                 .environmentObject(readingHistory)
                 .environmentObject(favoriteStore)
+                .environmentObject(storeManager)
+                .task {
+                    await storeManager.loadProducts()
+                }
         }
     }
 }
